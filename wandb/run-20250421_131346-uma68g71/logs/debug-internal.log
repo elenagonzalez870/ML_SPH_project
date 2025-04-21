@@ -1,0 +1,28 @@
+{"time":"2025-04-21T13:13:47.465935-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/Users/elenagonzalez/Desktop/Research/ML/wandb/run-20250421_131346-uma68g71/logs/debug-core.log"}
+{"time":"2025-04-21T13:13:47.654605-05:00","level":"INFO","msg":"created new stream","id":"uma68g71"}
+{"time":"2025-04-21T13:13:47.654676-05:00","level":"INFO","msg":"stream: started","id":"uma68g71"}
+{"time":"2025-04-21T13:13:47.654681-05:00","level":"INFO","msg":"handler: started","stream_id":"uma68g71"}
+{"time":"2025-04-21T13:13:47.654702-05:00","level":"INFO","msg":"sender: started","stream_id":"uma68g71"}
+{"time":"2025-04-21T13:13:47.654736-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"uma68g71"}
+{"time":"2025-04-21T13:13:47.806202-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-21T13:13:47.88367-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-21T13:13:51.031149-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-21T13:13:51.033497-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-21T13:13:57.16765-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-21T13:13:57.168774-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-21T13:13:58.397163-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-21T13:13:58.523829-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-21T13:14:20.666825-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-21T13:14:20.667694-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-21T13:14:22.902413-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-21T13:14:22.90643-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-21T13:14:24.359836-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-21T13:18:39.402686-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-21T13:18:39.40286-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-21T13:18:39.867997-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-21T13:18:40.014175-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-04-21T13:18:40.028924-05:00","level":"INFO","msg":"stream: closing","id":"uma68g71"}
+{"time":"2025-04-21T13:18:40.029035-05:00","level":"INFO","msg":"handler: closed","stream_id":"uma68g71"}
+{"time":"2025-04-21T13:18:40.029087-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"uma68g71"}
+{"time":"2025-04-21T13:18:40.029136-05:00","level":"INFO","msg":"sender: closed","stream_id":"uma68g71"}
+{"time":"2025-04-21T13:18:40.02965-05:00","level":"INFO","msg":"stream: closed","id":"uma68g71"}

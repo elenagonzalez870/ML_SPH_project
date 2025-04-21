@@ -1,0 +1,22 @@
+{"time":"2025-04-21T13:12:22.792183-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/Users/elenagonzalez/Desktop/Research/ML/wandb/run-20250421_131222-j7nqjxui/logs/debug-core.log"}
+{"time":"2025-04-21T13:12:22.989866-05:00","level":"INFO","msg":"created new stream","id":"j7nqjxui"}
+{"time":"2025-04-21T13:12:22.989911-05:00","level":"INFO","msg":"stream: started","id":"j7nqjxui"}
+{"time":"2025-04-21T13:12:22.989915-05:00","level":"INFO","msg":"handler: started","stream_id":"j7nqjxui"}
+{"time":"2025-04-21T13:12:22.989936-05:00","level":"INFO","msg":"sender: started","stream_id":"j7nqjxui"}
+{"time":"2025-04-21T13:12:22.989946-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"j7nqjxui"}
+{"time":"2025-04-21T13:12:23.093638-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-21T13:12:23.191152-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-21T13:12:25.333654-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-21T13:12:25.336547-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-21T13:12:27.055747-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-21T13:12:27.056935-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-21T13:13:10.890604-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-21T13:13:10.901309-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-21T13:13:10.901357-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-21T13:13:11.272748-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-21T13:13:11.394852-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-04-21T13:13:11.404474-05:00","level":"INFO","msg":"stream: closing","id":"j7nqjxui"}
+{"time":"2025-04-21T13:13:11.404504-05:00","level":"INFO","msg":"handler: closed","stream_id":"j7nqjxui"}
+{"time":"2025-04-21T13:13:11.404523-05:00","level":"INFO","msg":"sender: closed","stream_id":"j7nqjxui"}
+{"time":"2025-04-21T13:13:11.40452-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"j7nqjxui"}
+{"time":"2025-04-21T13:13:11.404714-05:00","level":"INFO","msg":"stream: closed","id":"j7nqjxui"}

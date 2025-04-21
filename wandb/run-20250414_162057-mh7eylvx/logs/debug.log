@@ -1,0 +1,18 @@
+2025-04-14 16:20:57,503 INFO    MainThread:155 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-14 16:20:57,504 INFO    MainThread:155 [wandb_setup.py:_flush():67] Configure stats pid to 155
+2025-04-14 16:20:57,504 INFO    MainThread:155 [wandb_setup.py:_flush():67] Loading settings from /Users/elenagonzalez/.config/wandb/settings
+2025-04-14 16:20:57,504 INFO    MainThread:155 [wandb_setup.py:_flush():67] Loading settings from /Users/elenagonzalez/Desktop/Research/ML/wandb/settings
+2025-04-14 16:20:57,504 INFO    MainThread:155 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-14 16:20:57,504 INFO    MainThread:155 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /Users/elenagonzalez/Desktop/Research/ML/wandb/run-20250414_162057-mh7eylvx/logs/debug.log
+2025-04-14 16:20:57,504 INFO    MainThread:155 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /Users/elenagonzalez/Desktop/Research/ML/wandb/run-20250414_162057-mh7eylvx/logs/debug-internal.log
+2025-04-14 16:20:57,504 INFO    MainThread:155 [wandb_init.py:monkeypatch_ipython():581] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x1187d28e0>
+2025-04-14 16:20:57,505 INFO    MainThread:155 [wandb_init.py:init():781] calling init triggers
+2025-04-14 16:20:57,505 INFO    MainThread:155 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.1, 'architecture': 'NN', 'dataset': 'FB', 'epochs': 1000, '_wandb': {}}
+2025-04-14 16:20:57,506 INFO    MainThread:155 [wandb_init.py:init():809] starting backend
+2025-04-14 16:20:57,506 INFO    MainThread:155 [wandb_init.py:init():813] sending inform_init request
+2025-04-14 16:20:57,547 INFO    MainThread:155 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-04-14 16:20:57,547 INFO    MainThread:155 [wandb_init.py:init():823] backend started and connected
+2025-04-14 16:20:57,552 INFO    MainThread:155 [wandb_run.py:_label_probe_notebook():1267] probe notebook
+2025-04-14 16:20:57,561 INFO    MainThread:155 [wandb_init.py:init():915] updated telemetry
+2025-04-14 16:20:57,597 INFO    MainThread:155 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout

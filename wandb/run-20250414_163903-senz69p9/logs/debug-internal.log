@@ -1,0 +1,15 @@
+{"time":"2025-04-14T16:39:04.641716-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/Users/elenagonzalez/Desktop/Research/ML/wandb/run-20250414_163903-senz69p9/logs/debug-core.log"}
+{"time":"2025-04-14T16:39:04.882377-04:00","level":"INFO","msg":"created new stream","id":"senz69p9"}
+{"time":"2025-04-14T16:39:04.882499-04:00","level":"INFO","msg":"stream: started","id":"senz69p9"}
+{"time":"2025-04-14T16:39:04.882512-04:00","level":"INFO","msg":"handler: started","stream_id":"senz69p9"}
+{"time":"2025-04-14T16:39:04.882519-04:00","level":"INFO","msg":"sender: started","stream_id":"senz69p9"}
+{"time":"2025-04-14T16:39:04.882541-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"senz69p9"}
+{"time":"2025-04-14T16:39:05.17153-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-14T16:43:11.502347-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-14T16:43:11.502369-04:00","level":"INFO","msg":"stream: closing","id":"senz69p9"}
+{"time":"2025-04-14T16:43:11.502764-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-14T16:43:12.251735-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-14T16:43:12.62258-04:00","level":"INFO","msg":"handler: closed","stream_id":"senz69p9"}
+{"time":"2025-04-14T16:43:12.622618-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"senz69p9"}
+{"time":"2025-04-14T16:43:12.622642-04:00","level":"INFO","msg":"sender: closed","stream_id":"senz69p9"}
+{"time":"2025-04-14T16:43:12.623249-04:00","level":"INFO","msg":"stream: closed","id":"senz69p9"}

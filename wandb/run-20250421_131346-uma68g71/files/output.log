@@ -1,0 +1,5218 @@
+(4, 14187) (14187,)
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([128, 4])
+Batch labels shape: torch.Size([128, 3])
+Batch data shape: torch.Size([85, 4])
+Batch labels shape: torch.Size([85, 3])
+NeuralNetwork(
+  (flatten): Flatten(start_dim=1, end_dim=-1)
+  (linear_relu_stack): Sequential(
+    (0): Linear(in_features=4, out_features=50, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=50, out_features=50, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=50, out_features=3, bias=True)
+  )
+)
+Epoch 1
+-------------------------------
+Test Error:
+ Accuracy: 84.7%, Balanced Accuracy: 59.1%, Avg loss: 0.494325
+
+Epoch 2
+-------------------------------
+Test Error:
+ Accuracy: 83.4%, Balanced Accuracy: 57.9%, Avg loss: 0.518675
+
+Epoch 3
+-------------------------------
+Test Error:
+ Accuracy: 86.5%, Balanced Accuracy: 60.7%, Avg loss: 0.413376
+
+Epoch 4
+-------------------------------
+Test Error:
+ Accuracy: 85.5%, Balanced Accuracy: 60.9%, Avg loss: 0.407714
+
+Epoch 5
+-------------------------------
+Test Error:
+ Accuracy: 87.4%, Balanced Accuracy: 78.0%, Avg loss: 0.389634
+
+Epoch 6
+-------------------------------
+Test Error:
+ Accuracy: 85.1%, Balanced Accuracy: 79.9%, Avg loss: 0.427283
+
+Epoch 7
+-------------------------------
+Test Error:
+ Accuracy: 89.5%, Balanced Accuracy: 77.9%, Avg loss: 0.303869
+
+Epoch 8
+-------------------------------
+Test Error:
+ Accuracy: 88.7%, Balanced Accuracy: 72.3%, Avg loss: 0.298836
+
+Epoch 9
+-------------------------------
+Test Error:
+ Accuracy: 88.9%, Balanced Accuracy: 80.3%, Avg loss: 0.298082
+
+Epoch 10
+-------------------------------
+Test Error:
+ Accuracy: 85.3%, Balanced Accuracy: 80.9%, Avg loss: 0.382649
+
+Epoch 11
+-------------------------------
+Test Error:
+ Accuracy: 88.5%, Balanced Accuracy: 87.1%, Avg loss: 0.301315
+
+Epoch 12
+-------------------------------
+Test Error:
+ Accuracy: 87.9%, Balanced Accuracy: 74.7%, Avg loss: 0.268341
+
+Epoch 13
+-------------------------------
+Test Error:
+ Accuracy: 90.4%, Balanced Accuracy: 87.1%, Avg loss: 0.264534
+
+Epoch 14
+-------------------------------
+Test Error:
+ Accuracy: 89.6%, Balanced Accuracy: 85.0%, Avg loss: 0.261765
+
+Epoch 15
+-------------------------------
+Test Error:
+ Accuracy: 86.5%, Balanced Accuracy: 63.0%, Avg loss: 0.338793
+
+Epoch 16
+-------------------------------
+Test Error:
+ Accuracy: 89.3%, Balanced Accuracy: 73.7%, Avg loss: 0.262938
+
+Epoch 17
+-------------------------------
+Test Error:
+ Accuracy: 89.5%, Balanced Accuracy: 88.7%, Avg loss: 0.261550
+
+Epoch 18
+-------------------------------
+Test Error:
+ Accuracy: 90.8%, Balanced Accuracy: 84.7%, Avg loss: 0.226940
+
+Epoch 19
+-------------------------------
+Test Error:
+ Accuracy: 89.6%, Balanced Accuracy: 88.8%, Avg loss: 0.252299
+
+Epoch 20
+-------------------------------
+Test Error:
+ Accuracy: 90.4%, Balanced Accuracy: 75.9%, Avg loss: 0.227020
+
+Epoch 21
+-------------------------------
+Test Error:
+ Accuracy: 89.6%, Balanced Accuracy: 73.8%, Avg loss: 0.296695
+
+Epoch 22
+-------------------------------
+Test Error:
+ Accuracy: 80.2%, Balanced Accuracy: 86.1%, Avg loss: 0.382217
+
+Epoch 23
+-------------------------------
+Test Error:
+ Accuracy: 87.0%, Balanced Accuracy: 61.9%, Avg loss: 0.440073
+
+Epoch 24
+-------------------------------
+Test Error:
+ Accuracy: 91.5%, Balanced Accuracy: 82.0%, Avg loss: 0.209070
+
+Epoch 25
+-------------------------------
+Test Error:
+ Accuracy: 92.7%, Balanced Accuracy: 90.0%, Avg loss: 0.191107
+
+Epoch 26
+-------------------------------
+Test Error:
+ Accuracy: 90.8%, Balanced Accuracy: 90.8%, Avg loss: 0.216396
+
+Epoch 27
+-------------------------------
+Test Error:
+ Accuracy: 89.7%, Balanced Accuracy: 90.6%, Avg loss: 0.269334
+
+Epoch 28
+-------------------------------
+Test Error:
+ Accuracy: 91.1%, Balanced Accuracy: 90.2%, Avg loss: 0.212576
+
+Epoch 29
+-------------------------------
+Test Error:
+ Accuracy: 93.2%, Balanced Accuracy: 91.5%, Avg loss: 0.181931
+
+Epoch 30
+-------------------------------
+Test Error:
+ Accuracy: 92.4%, Balanced Accuracy: 84.2%, Avg loss: 0.184503
+
+Epoch 31
+-------------------------------
+Test Error:
+ Accuracy: 91.1%, Balanced Accuracy: 77.8%, Avg loss: 0.205256
+
+Epoch 32
+-------------------------------
+Test Error:
+ Accuracy: 92.7%, Balanced Accuracy: 87.4%, Avg loss: 0.180002
+
+Epoch 33
+-------------------------------
+Test Error:
+ Accuracy: 93.3%, Balanced Accuracy: 91.2%, Avg loss: 0.168554
+
+Epoch 34
+-------------------------------
+Test Error:
+ Accuracy: 91.3%, Balanced Accuracy: 92.5%, Avg loss: 0.211736
+
+Epoch 35
+-------------------------------
+Test Error:
+ Accuracy: 92.5%, Balanced Accuracy: 84.9%, Avg loss: 0.171037
+
+Epoch 36
+-------------------------------
+Test Error:
+ Accuracy: 93.3%, Balanced Accuracy: 87.9%, Avg loss: 0.164536
+
+Epoch 37
+-------------------------------
+Test Error:
+ Accuracy: 92.5%, Balanced Accuracy: 84.0%, Avg loss: 0.168991
+
+Epoch 38
+-------------------------------
+Test Error:
+ Accuracy: 89.0%, Balanced Accuracy: 81.9%, Avg loss: 0.262482
+
+Epoch 39
+-------------------------------
+Test Error:
+ Accuracy: 92.5%, Balanced Accuracy: 86.4%, Avg loss: 0.192466
+
+Epoch 40
+-------------------------------
+Test Error:
+ Accuracy: 93.8%, Balanced Accuracy: 89.6%, Avg loss: 0.155977
+
+Epoch 41
+-------------------------------
+Test Error:
+ Accuracy: 90.7%, Balanced Accuracy: 92.7%, Avg loss: 0.220362
+
+Epoch 42
+-------------------------------
+Test Error:
+ Accuracy: 91.4%, Balanced Accuracy: 80.8%, Avg loss: 0.200785
+
+Epoch 43
+-------------------------------
+Test Error:
+ Accuracy: 91.9%, Balanced Accuracy: 79.6%, Avg loss: 0.191458
+
+Epoch 44
+-------------------------------
+Test Error:
+ Accuracy: 93.2%, Balanced Accuracy: 84.0%, Avg loss: 0.158532
+
+Epoch 45
+-------------------------------
+Test Error:
+ Accuracy: 93.5%, Balanced Accuracy: 91.7%, Avg loss: 0.171987
+
+Epoch 46
+-------------------------------
+Test Error:
+ Accuracy: 93.2%, Balanced Accuracy: 92.8%, Avg loss: 0.164314
+
+Epoch 47
+-------------------------------
+Test Error:
+ Accuracy: 93.6%, Balanced Accuracy: 93.3%, Avg loss: 0.171232
+
+Epoch 48
+-------------------------------
+Test Error:
+ Accuracy: 89.9%, Balanced Accuracy: 91.9%, Avg loss: 0.239039
+
+Epoch 49
+-------------------------------
+Test Error:
+ Accuracy: 92.6%, Balanced Accuracy: 85.5%, Avg loss: 0.177046
+
+Epoch 50
+-------------------------------
+Test Error:
+ Accuracy: 94.6%, Balanced Accuracy: 92.0%, Avg loss: 0.145373
+
+Epoch 51
+-------------------------------
+Test Error:
+ Accuracy: 93.0%, Balanced Accuracy: 92.0%, Avg loss: 0.174510
+
+Epoch 52
+-------------------------------
+Test Error:
+ Accuracy: 94.7%, Balanced Accuracy: 92.5%, Avg loss: 0.140243
+
+Epoch 53
+-------------------------------
+Test Error:
+ Accuracy: 67.2%, Balanced Accuracy: 77.5%, Avg loss: 0.897172
+
+Epoch 54
+-------------------------------
+Test Error:
+ Accuracy: 92.1%, Balanced Accuracy: 79.3%, Avg loss: 0.195680
+
+Epoch 55
+-------------------------------
+Test Error:
+ Accuracy: 95.0%, Balanced Accuracy: 94.8%, Avg loss: 0.135724
+
+Epoch 56
+-------------------------------
+Test Error:
+ Accuracy: 94.6%, Balanced Accuracy: 92.8%, Avg loss: 0.139061
+
+Epoch 57
+-------------------------------
+Test Error:
+ Accuracy: 91.3%, Balanced Accuracy: 78.4%, Avg loss: 0.204585
+
+Epoch 58
+-------------------------------
+Test Error:
+ Accuracy: 93.6%, Balanced Accuracy: 93.5%, Avg loss: 0.159083
+
+Epoch 59
+-------------------------------
+Test Error:
+ Accuracy: 93.5%, Balanced Accuracy: 86.0%, Avg loss: 0.151888
+
+Epoch 60
+-------------------------------
+Test Error:
+ Accuracy: 93.2%, Balanced Accuracy: 84.9%, Avg loss: 0.158605
+
+Epoch 61
+-------------------------------
+Test Error:
+ Accuracy: 93.7%, Balanced Accuracy: 90.8%, Avg loss: 0.150840
+
+Epoch 62
+-------------------------------
+Test Error:
+ Accuracy: 91.6%, Balanced Accuracy: 80.2%, Avg loss: 0.215679
+
+Epoch 63
+-------------------------------
+Test Error:
+ Accuracy: 93.1%, Balanced Accuracy: 85.8%, Avg loss: 0.166517
+
+Epoch 64
+-------------------------------
+Test Error:
+ Accuracy: 92.4%, Balanced Accuracy: 82.2%, Avg loss: 0.169337
+
+Epoch 65
+-------------------------------
+Test Error:
+ Accuracy: 94.7%, Balanced Accuracy: 94.4%, Avg loss: 0.136974
+
+Epoch 66
+-------------------------------
+Test Error:
+ Accuracy: 94.6%, Balanced Accuracy: 91.2%, Avg loss: 0.130691
+
+Epoch 67
+-------------------------------
+Test Error:
+ Accuracy: 94.4%, Balanced Accuracy: 93.6%, Avg loss: 0.126742
+
+Epoch 68
+-------------------------------
+Test Error:
+ Accuracy: 90.9%, Balanced Accuracy: 75.6%, Avg loss: 0.252003
+
+Epoch 69
+-------------------------------
+Test Error:
+ Accuracy: 94.6%, Balanced Accuracy: 93.3%, Avg loss: 0.134369
+
+Epoch 70
+-------------------------------
+Test Error:
+ Accuracy: 94.7%, Balanced Accuracy: 92.8%, Avg loss: 0.130014
+
+Epoch 71
+-------------------------------
+Test Error:
+ Accuracy: 93.2%, Balanced Accuracy: 86.0%, Avg loss: 0.160114
+
+Epoch 72
+-------------------------------
+Test Error:
+ Accuracy: 94.5%, Balanced Accuracy: 91.6%, Avg loss: 0.142323
+
+Epoch 73
+-------------------------------
+Test Error:
+ Accuracy: 93.8%, Balanced Accuracy: 89.8%, Avg loss: 0.162153
+
+Epoch 74
+-------------------------------
+Test Error:
+ Accuracy: 93.0%, Balanced Accuracy: 82.6%, Avg loss: 0.150351
+
+Epoch 75
+-------------------------------
+Test Error:
+ Accuracy: 90.8%, Balanced Accuracy: 92.6%, Avg loss: 0.230039
+
+Epoch 76
+-------------------------------
+Test Error:
+ Accuracy: 94.7%, Balanced Accuracy: 92.7%, Avg loss: 0.126527
+
+Epoch 77
+-------------------------------
+Test Error:
+ Accuracy: 94.9%, Balanced Accuracy: 95.0%, Avg loss: 0.126110
+
+Epoch 78
+-------------------------------
+Test Error:
+ Accuracy: 88.5%, Balanced Accuracy: 91.0%, Avg loss: 0.246107
+
+Epoch 79
+-------------------------------
+Test Error:
+ Accuracy: 92.7%, Balanced Accuracy: 93.4%, Avg loss: 0.166786
+
+Epoch 80
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 92.2%, Avg loss: 0.122632
+
+Epoch 81
+-------------------------------
+Test Error:
+ Accuracy: 94.9%, Balanced Accuracy: 94.4%, Avg loss: 0.126490
+
+Epoch 82
+-------------------------------
+Test Error:
+ Accuracy: 92.6%, Balanced Accuracy: 93.3%, Avg loss: 0.189325
+
+Epoch 83
+-------------------------------
+Test Error:
+ Accuracy: 95.3%, Balanced Accuracy: 94.9%, Avg loss: 0.118925
+
+Epoch 84
+-------------------------------
+Test Error:
+ Accuracy: 95.4%, Balanced Accuracy: 92.9%, Avg loss: 0.120787
+
+Epoch 85
+-------------------------------
+Test Error:
+ Accuracy: 94.4%, Balanced Accuracy: 88.7%, Avg loss: 0.139092
+
+Epoch 86
+-------------------------------
+Test Error:
+ Accuracy: 94.2%, Balanced Accuracy: 88.1%, Avg loss: 0.131250
+
+Epoch 87
+-------------------------------
+Test Error:
+ Accuracy: 94.4%, Balanced Accuracy: 88.4%, Avg loss: 0.131961
+
+Epoch 88
+-------------------------------
+Test Error:
+ Accuracy: 94.1%, Balanced Accuracy: 87.9%, Avg loss: 0.165351
+
+Epoch 89
+-------------------------------
+Test Error:
+ Accuracy: 93.8%, Balanced Accuracy: 87.2%, Avg loss: 0.148560
+
+Epoch 90
+-------------------------------
+Test Error:
+ Accuracy: 94.7%, Balanced Accuracy: 90.0%, Avg loss: 0.123495
+
+Epoch 91
+-------------------------------
+/Users/elenagonzalez/miniconda3/envs/ML/lib/python3.9/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+Test Error:
+ Accuracy: 91.7%, Balanced Accuracy: 93.2%, Avg loss: 0.182212
+
+Epoch 92
+-------------------------------
+Test Error:
+ Accuracy: 94.4%, Balanced Accuracy: 94.9%, Avg loss: 0.131625
+
+Epoch 93
+-------------------------------
+Test Error:
+ Accuracy: 91.0%, Balanced Accuracy: 71.7%, Avg loss: 0.284209
+
+Epoch 94
+-------------------------------
+Test Error:
+ Accuracy: 94.3%, Balanced Accuracy: 88.3%, Avg loss: 0.131054
+
+Epoch 95
+-------------------------------
+Test Error:
+ Accuracy: 95.4%, Balanced Accuracy: 92.3%, Avg loss: 0.116773
+
+Epoch 96
+-------------------------------
+Test Error:
+ Accuracy: 93.0%, Balanced Accuracy: 94.1%, Avg loss: 0.158947
+
+Epoch 97
+-------------------------------
+Test Error:
+ Accuracy: 95.2%, Balanced Accuracy: 95.0%, Avg loss: 0.123106
+
+Epoch 98
+-------------------------------
+Test Error:
+ Accuracy: 95.3%, Balanced Accuracy: 95.1%, Avg loss: 0.111503
+
+Epoch 99
+-------------------------------
+Test Error:
+ Accuracy: 93.9%, Balanced Accuracy: 94.4%, Avg loss: 0.139374
+
+Epoch 100
+-------------------------------
+Test Error:
+ Accuracy: 93.3%, Balanced Accuracy: 94.3%, Avg loss: 0.157712
+
+Epoch 101
+-------------------------------
+Test Error:
+ Accuracy: 95.2%, Balanced Accuracy: 93.6%, Avg loss: 0.113994
+
+Epoch 102
+-------------------------------
+Test Error:
+ Accuracy: 95.0%, Balanced Accuracy: 94.3%, Avg loss: 0.127328
+
+Epoch 103
+-------------------------------
+Test Error:
+ Accuracy: 86.1%, Balanced Accuracy: 89.7%, Avg loss: 0.314139
+
+Epoch 104
+-------------------------------
+Test Error:
+ Accuracy: 94.2%, Balanced Accuracy: 87.8%, Avg loss: 0.145082
+
+Epoch 105
+-------------------------------
+Test Error:
+ Accuracy: 92.5%, Balanced Accuracy: 83.7%, Avg loss: 0.184347
+
+Epoch 106
+-------------------------------
+Test Error:
+ Accuracy: 92.5%, Balanced Accuracy: 93.8%, Avg loss: 0.181106
+
+Epoch 107
+-------------------------------
+Test Error:
+ Accuracy: 91.1%, Balanced Accuracy: 75.3%, Avg loss: 0.315656
+
+Epoch 108
+-------------------------------
+Test Error:
+ Accuracy: 95.2%, Balanced Accuracy: 93.8%, Avg loss: 0.127751
+
+Epoch 109
+-------------------------------
+Test Error:
+ Accuracy: 93.8%, Balanced Accuracy: 93.8%, Avg loss: 0.144990
+
+Epoch 110
+-------------------------------
+Test Error:
+ Accuracy: 82.9%, Balanced Accuracy: 87.4%, Avg loss: 0.444662
+
+Epoch 111
+-------------------------------
+Test Error:
+ Accuracy: 90.4%, Balanced Accuracy: 92.1%, Avg loss: 0.244706
+
+Epoch 112
+-------------------------------
+Test Error:
+ Accuracy: 93.4%, Balanced Accuracy: 89.8%, Avg loss: 0.177416
+
+Epoch 113
+-------------------------------
+Test Error:
+ Accuracy: 94.7%, Balanced Accuracy: 94.6%, Avg loss: 0.125562
+
+Epoch 114
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 95.4%, Avg loss: 0.108120
+
+Epoch 115
+-------------------------------
+Test Error:
+ Accuracy: 94.7%, Balanced Accuracy: 91.7%, Avg loss: 0.134436
+
+Epoch 116
+-------------------------------
+Test Error:
+ Accuracy: 95.0%, Balanced Accuracy: 91.1%, Avg loss: 0.115323
+
+Epoch 117
+-------------------------------
+Test Error:
+ Accuracy: 93.9%, Balanced Accuracy: 87.0%, Avg loss: 0.129484
+
+Epoch 118
+-------------------------------
+Test Error:
+ Accuracy: 93.3%, Balanced Accuracy: 86.0%, Avg loss: 0.163935
+
+Epoch 119
+-------------------------------
+Test Error:
+ Accuracy: 94.7%, Balanced Accuracy: 94.1%, Avg loss: 0.129025
+
+Epoch 120
+-------------------------------
+Test Error:
+ Accuracy: 95.2%, Balanced Accuracy: 90.5%, Avg loss: 0.114684
+
+Epoch 121
+-------------------------------
+Test Error:
+ Accuracy: 93.4%, Balanced Accuracy: 91.1%, Avg loss: 0.194490
+
+Epoch 122
+-------------------------------
+Test Error:
+ Accuracy: 94.6%, Balanced Accuracy: 90.3%, Avg loss: 0.126185
+
+Epoch 123
+-------------------------------
+Test Error:
+ Accuracy: 92.8%, Balanced Accuracy: 85.0%, Avg loss: 0.202229
+
+Epoch 124
+-------------------------------
+Test Error:
+ Accuracy: 94.0%, Balanced Accuracy: 95.2%, Avg loss: 0.143314
+
+Epoch 125
+-------------------------------
+Test Error:
+ Accuracy: 94.9%, Balanced Accuracy: 90.9%, Avg loss: 0.119914
+
+Epoch 126
+-------------------------------
+Test Error:
+ Accuracy: 93.8%, Balanced Accuracy: 86.8%, Avg loss: 0.155204
+
+Epoch 127
+-------------------------------
+Test Error:
+ Accuracy: 94.3%, Balanced Accuracy: 94.3%, Avg loss: 0.128987
+
+Epoch 128
+-------------------------------
+Test Error:
+ Accuracy: 94.8%, Balanced Accuracy: 94.7%, Avg loss: 0.135080
+
+Epoch 129
+-------------------------------
+Test Error:
+ Accuracy: 95.0%, Balanced Accuracy: 89.7%, Avg loss: 0.113784
+
+Epoch 130
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 94.3%, Avg loss: 0.102380
+
+Epoch 131
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 94.3%, Avg loss: 0.106037
+
+Epoch 132
+-------------------------------
+Test Error:
+ Accuracy: 93.5%, Balanced Accuracy: 83.7%, Avg loss: 0.165476
+
+Epoch 133
+-------------------------------
+Test Error:
+ Accuracy: 94.2%, Balanced Accuracy: 85.3%, Avg loss: 0.146713
+
+Epoch 134
+-------------------------------
+Test Error:
+ Accuracy: 95.7%, Balanced Accuracy: 94.6%, Avg loss: 0.112035
+
+Epoch 135
+-------------------------------
+Test Error:
+ Accuracy: 93.2%, Balanced Accuracy: 94.0%, Avg loss: 0.159181
+
+Epoch 136
+-------------------------------
+Test Error:
+ Accuracy: 94.3%, Balanced Accuracy: 91.3%, Avg loss: 0.141709
+
+Epoch 137
+-------------------------------
+Test Error:
+ Accuracy: 94.7%, Balanced Accuracy: 93.0%, Avg loss: 0.140713
+
+Epoch 138
+-------------------------------
+Test Error:
+ Accuracy: 95.4%, Balanced Accuracy: 91.9%, Avg loss: 0.111018
+
+Epoch 139
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 90.3%, Avg loss: 0.110613
+
+Epoch 140
+-------------------------------
+Test Error:
+ Accuracy: 94.2%, Balanced Accuracy: 87.7%, Avg loss: 0.123251
+
+Epoch 141
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 92.4%, Avg loss: 0.101746
+
+Epoch 142
+-------------------------------
+Test Error:
+ Accuracy: 94.4%, Balanced Accuracy: 87.2%, Avg loss: 0.134332
+
+Epoch 143
+-------------------------------
+Test Error:
+ Accuracy: 94.6%, Balanced Accuracy: 93.1%, Avg loss: 0.126370
+
+Epoch 144
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 94.7%, Avg loss: 0.120724
+
+Epoch 145
+-------------------------------
+Test Error:
+ Accuracy: 94.6%, Balanced Accuracy: 93.2%, Avg loss: 0.142664
+
+Epoch 146
+-------------------------------
+Test Error:
+ Accuracy: 92.6%, Balanced Accuracy: 83.4%, Avg loss: 0.182991
+
+Epoch 147
+-------------------------------
+Test Error:
+ Accuracy: 94.0%, Balanced Accuracy: 94.7%, Avg loss: 0.131621
+
+Epoch 148
+-------------------------------
+Test Error:
+ Accuracy: 93.9%, Balanced Accuracy: 88.8%, Avg loss: 0.150793
+
+Epoch 149
+-------------------------------
+Test Error:
+ Accuracy: 96.0%, Balanced Accuracy: 92.1%, Avg loss: 0.100395
+
+Epoch 150
+-------------------------------
+Test Error:
+ Accuracy: 95.2%, Balanced Accuracy: 94.5%, Avg loss: 0.114879
+
+Epoch 151
+-------------------------------
+Test Error:
+ Accuracy: 95.3%, Balanced Accuracy: 95.0%, Avg loss: 0.123703
+
+Epoch 152
+-------------------------------
+Test Error:
+ Accuracy: 94.8%, Balanced Accuracy: 92.7%, Avg loss: 0.145099
+
+Epoch 153
+-------------------------------
+Test Error:
+ Accuracy: 90.1%, Balanced Accuracy: 92.3%, Avg loss: 0.254179
+
+Epoch 154
+-------------------------------
+Test Error:
+ Accuracy: 95.2%, Balanced Accuracy: 93.9%, Avg loss: 0.131575
+
+Epoch 155
+-------------------------------
+Test Error:
+ Accuracy: 95.1%, Balanced Accuracy: 95.1%, Avg loss: 0.130433
+
+Epoch 156
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 95.1%, Avg loss: 0.117840
+
+Epoch 157
+-------------------------------
+Test Error:
+ Accuracy: 93.6%, Balanced Accuracy: 94.4%, Avg loss: 0.153415
+
+Epoch 158
+-------------------------------
+Test Error:
+ Accuracy: 93.7%, Balanced Accuracy: 94.6%, Avg loss: 0.146237
+
+Epoch 159
+-------------------------------
+/Users/elenagonzalez/miniconda3/envs/ML/lib/python3.9/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+Test Error:
+ Accuracy: 95.1%, Balanced Accuracy: 95.0%, Avg loss: 0.117454
+
+Epoch 160
+-------------------------------
+Test Error:
+ Accuracy: 92.8%, Balanced Accuracy: 93.4%, Avg loss: 0.174116
+
+Epoch 161
+-------------------------------
+Test Error:
+ Accuracy: 94.6%, Balanced Accuracy: 95.1%, Avg loss: 0.132479
+
+Epoch 162
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 93.3%, Avg loss: 0.115337
+
+Epoch 163
+-------------------------------
+Test Error:
+ Accuracy: 92.0%, Balanced Accuracy: 77.9%, Avg loss: 0.299691
+
+Epoch 164
+-------------------------------
+Test Error:
+ Accuracy: 95.2%, Balanced Accuracy: 89.3%, Avg loss: 0.116600
+
+Epoch 165
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 94.2%, Avg loss: 0.101836
+
+Epoch 166
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 95.2%, Avg loss: 0.100733
+
+Epoch 167
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 93.1%, Avg loss: 0.098367
+
+Epoch 168
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 94.1%, Avg loss: 0.112939
+
+Epoch 169
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 95.3%, Avg loss: 0.101707
+
+Epoch 170
+-------------------------------
+Test Error:
+ Accuracy: 95.4%, Balanced Accuracy: 94.8%, Avg loss: 0.116059
+
+Epoch 171
+-------------------------------
+Test Error:
+ Accuracy: 95.7%, Balanced Accuracy: 90.9%, Avg loss: 0.114163
+
+Epoch 172
+-------------------------------
+Test Error:
+ Accuracy: 95.2%, Balanced Accuracy: 91.2%, Avg loss: 0.117710
+
+Epoch 173
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 95.4%, Avg loss: 0.122158
+
+Epoch 174
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 91.8%, Avg loss: 0.107531
+
+Epoch 175
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 95.0%, Avg loss: 0.095665
+
+Epoch 176
+-------------------------------
+Test Error:
+ Accuracy: 96.0%, Balanced Accuracy: 95.8%, Avg loss: 0.105087
+
+Epoch 177
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 94.6%, Avg loss: 0.129658
+
+Epoch 178
+-------------------------------
+Test Error:
+ Accuracy: 90.1%, Balanced Accuracy: 92.4%, Avg loss: 0.240219
+
+Epoch 179
+-------------------------------
+Test Error:
+ Accuracy: 94.9%, Balanced Accuracy: 88.3%, Avg loss: 0.127853
+
+Epoch 180
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 95.3%, Avg loss: 0.100288
+
+Epoch 181
+-------------------------------
+Test Error:
+ Accuracy: 92.8%, Balanced Accuracy: 81.2%, Avg loss: 0.187354
+
+Epoch 182
+-------------------------------
+/Users/elenagonzalez/miniconda3/envs/ML/lib/python3.9/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 93.6%, Avg loss: 0.103301
+
+Epoch 183
+-------------------------------
+Test Error:
+ Accuracy: 94.6%, Balanced Accuracy: 88.1%, Avg loss: 0.145267
+
+Epoch 184
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 94.2%, Avg loss: 0.102507
+
+Epoch 185
+-------------------------------
+Test Error:
+ Accuracy: 93.4%, Balanced Accuracy: 85.0%, Avg loss: 0.176050
+
+Epoch 186
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 95.4%, Avg loss: 0.100258
+
+Epoch 187
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 96.0%, Avg loss: 0.101701
+
+Epoch 188
+-------------------------------
+Test Error:
+ Accuracy: 90.1%, Balanced Accuracy: 73.1%, Avg loss: 0.340617
+
+Epoch 189
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 91.6%, Avg loss: 0.103609
+
+Epoch 190
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 91.6%, Avg loss: 0.111182
+
+Epoch 191
+-------------------------------
+Test Error:
+ Accuracy: 94.9%, Balanced Accuracy: 95.3%, Avg loss: 0.129162
+
+Epoch 192
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 94.3%, Avg loss: 0.091724
+
+Epoch 193
+-------------------------------
+Test Error:
+ Accuracy: 95.3%, Balanced Accuracy: 90.3%, Avg loss: 0.114728
+
+Epoch 194
+-------------------------------
+Test Error:
+ Accuracy: 94.7%, Balanced Accuracy: 95.3%, Avg loss: 0.142903
+
+Epoch 195
+-------------------------------
+Test Error:
+ Accuracy: 95.1%, Balanced Accuracy: 94.1%, Avg loss: 0.108771
+
+Epoch 196
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 94.2%, Avg loss: 0.100478
+
+Epoch 197
+-------------------------------
+Test Error:
+ Accuracy: 91.7%, Balanced Accuracy: 92.5%, Avg loss: 0.193260
+
+Epoch 198
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 93.7%, Avg loss: 0.091214
+
+Epoch 199
+-------------------------------
+Test Error:
+ Accuracy: 94.7%, Balanced Accuracy: 86.6%, Avg loss: 0.127272
+
+Epoch 200
+-------------------------------
+/Users/elenagonzalez/miniconda3/envs/ML/lib/python3.9/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 91.5%, Avg loss: 0.111560
+
+Epoch 201
+-------------------------------
+Test Error:
+ Accuracy: 94.1%, Balanced Accuracy: 88.4%, Avg loss: 0.148449
+
+Epoch 202
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 92.4%, Avg loss: 0.104856
+
+Epoch 203
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 93.9%, Avg loss: 0.094741
+
+Epoch 204
+-------------------------------
+/Users/elenagonzalez/miniconda3/envs/ML/lib/python3.9/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 95.1%, Avg loss: 0.104696
+
+Epoch 205
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 94.9%, Avg loss: 0.096151
+
+Epoch 206
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 95.2%, Avg loss: 0.097633
+
+Epoch 207
+-------------------------------
+Test Error:
+ Accuracy: 94.3%, Balanced Accuracy: 87.7%, Avg loss: 0.139308
+
+Epoch 208
+-------------------------------
+Test Error:
+ Accuracy: 95.4%, Balanced Accuracy: 90.4%, Avg loss: 0.107862
+
+Epoch 209
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 95.4%, Avg loss: 0.096639
+
+Epoch 210
+-------------------------------
+Test Error:
+ Accuracy: 91.2%, Balanced Accuracy: 93.0%, Avg loss: 0.218558
+
+Epoch 211
+-------------------------------
+Test Error:
+ Accuracy: 94.8%, Balanced Accuracy: 94.0%, Avg loss: 0.135948
+
+Epoch 212
+-------------------------------
+Test Error:
+ Accuracy: 95.1%, Balanced Accuracy: 95.6%, Avg loss: 0.122527
+
+Epoch 213
+-------------------------------
+Test Error:
+ Accuracy: 94.8%, Balanced Accuracy: 88.4%, Avg loss: 0.191790
+
+Epoch 214
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 94.1%, Avg loss: 0.128796
+
+Epoch 215
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 95.7%, Avg loss: 0.095355
+
+Epoch 216
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 96.0%, Avg loss: 0.092953
+
+Epoch 217
+-------------------------------
+Test Error:
+ Accuracy: 91.4%, Balanced Accuracy: 93.1%, Avg loss: 0.257709
+
+Epoch 218
+-------------------------------
+Test Error:
+ Accuracy: 91.5%, Balanced Accuracy: 79.5%, Avg loss: 0.298349
+
+Epoch 219
+-------------------------------
+Test Error:
+ Accuracy: 94.5%, Balanced Accuracy: 88.7%, Avg loss: 0.125972
+
+Epoch 220
+-------------------------------
+Test Error:
+ Accuracy: 93.9%, Balanced Accuracy: 95.3%, Avg loss: 0.150673
+
+Epoch 221
+-------------------------------
+Test Error:
+ Accuracy: 90.5%, Balanced Accuracy: 93.1%, Avg loss: 0.232657
+
+Epoch 222
+-------------------------------
+Test Error:
+ Accuracy: 95.3%, Balanced Accuracy: 91.2%, Avg loss: 0.111031
+
+Epoch 223
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 92.3%, Avg loss: 0.099088
+
+Epoch 224
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 96.0%, Avg loss: 0.091498
+
+Epoch 225
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 92.2%, Avg loss: 0.095040
+
+Epoch 226
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 91.9%, Avg loss: 0.107955
+
+Epoch 227
+-------------------------------
+Test Error:
+ Accuracy: 95.3%, Balanced Accuracy: 90.9%, Avg loss: 0.109959
+
+Epoch 228
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 94.0%, Avg loss: 0.108562
+
+Epoch 229
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 94.5%, Avg loss: 0.101844
+
+Epoch 230
+-------------------------------
+Test Error:
+ Accuracy: 95.1%, Balanced Accuracy: 91.3%, Avg loss: 0.122102
+
+Epoch 231
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 94.3%, Avg loss: 0.098616
+
+Epoch 232
+-------------------------------
+Test Error:
+ Accuracy: 94.8%, Balanced Accuracy: 88.8%, Avg loss: 0.147004
+
+Epoch 233
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 91.9%, Avg loss: 0.108146
+
+Epoch 234
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 94.0%, Avg loss: 0.103311
+
+Epoch 235
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 95.2%, Avg loss: 0.094096
+
+Epoch 236
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 92.2%, Avg loss: 0.107261
+
+Epoch 237
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 91.0%, Avg loss: 0.120740
+
+Epoch 238
+-------------------------------
+Test Error:
+ Accuracy: 94.5%, Balanced Accuracy: 95.7%, Avg loss: 0.121385
+
+Epoch 239
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 96.7%, Avg loss: 0.100165
+
+Epoch 240
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 94.7%, Avg loss: 0.090147
+
+Epoch 241
+-------------------------------
+Test Error:
+ Accuracy: 91.3%, Balanced Accuracy: 93.1%, Avg loss: 0.207521
+
+Epoch 242
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 94.8%, Avg loss: 0.097018
+
+Epoch 243
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 95.0%, Avg loss: 0.111264
+
+Epoch 244
+-------------------------------
+Test Error:
+ Accuracy: 95.2%, Balanced Accuracy: 92.7%, Avg loss: 0.134822
+
+Epoch 245
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 94.1%, Avg loss: 0.095974
+
+Epoch 246
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 93.0%, Avg loss: 0.091772
+
+Epoch 247
+-------------------------------
+Test Error:
+ Accuracy: 95.1%, Balanced Accuracy: 89.5%, Avg loss: 0.119799
+
+Epoch 248
+-------------------------------
+Test Error:
+ Accuracy: 94.8%, Balanced Accuracy: 92.8%, Avg loss: 0.151513
+
+Epoch 249
+-------------------------------
+Test Error:
+ Accuracy: 95.2%, Balanced Accuracy: 90.8%, Avg loss: 0.108872
+
+Epoch 250
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 95.0%, Avg loss: 0.104337
+
+Epoch 251
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 95.6%, Avg loss: 0.109890
+
+Epoch 252
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 96.6%, Avg loss: 0.094725
+
+Epoch 253
+-------------------------------
+Test Error:
+ Accuracy: 94.9%, Balanced Accuracy: 94.8%, Avg loss: 0.120793
+
+Epoch 254
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 95.6%, Avg loss: 0.103045
+
+Epoch 255
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 93.9%, Avg loss: 0.092299
+
+Epoch 256
+-------------------------------
+Test Error:
+ Accuracy: 93.6%, Balanced Accuracy: 85.1%, Avg loss: 0.192980
+
+Epoch 257
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 96.1%, Avg loss: 0.101328
+
+Epoch 258
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 91.8%, Avg loss: 0.107507
+
+Epoch 259
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 93.9%, Avg loss: 0.115897
+
+Epoch 260
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 94.1%, Avg loss: 0.090636
+
+Epoch 261
+-------------------------------
+Test Error:
+ Accuracy: 96.0%, Balanced Accuracy: 94.1%, Avg loss: 0.104708
+
+Epoch 262
+-------------------------------
+Test Error:
+ Accuracy: 95.1%, Balanced Accuracy: 95.6%, Avg loss: 0.128846
+
+Epoch 263
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 94.2%, Avg loss: 0.113547
+
+Epoch 264
+-------------------------------
+Test Error:
+ Accuracy: 95.0%, Balanced Accuracy: 95.8%, Avg loss: 0.129179
+
+Epoch 265
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 91.6%, Avg loss: 0.126850
+
+Epoch 266
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 94.8%, Avg loss: 0.101477
+
+Epoch 267
+-------------------------------
+Test Error:
+ Accuracy: 95.3%, Balanced Accuracy: 88.4%, Avg loss: 0.124820
+
+Epoch 268
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 94.8%, Avg loss: 0.119726
+
+Epoch 269
+-------------------------------
+Test Error:
+ Accuracy: 93.4%, Balanced Accuracy: 84.5%, Avg loss: 0.187767
+
+Epoch 270
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 92.5%, Avg loss: 0.094585
+
+Epoch 271
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 94.5%, Avg loss: 0.091319
+
+Epoch 272
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 95.9%, Avg loss: 0.084437
+
+Epoch 273
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 92.8%, Avg loss: 0.098639
+
+Epoch 274
+-------------------------------
+Test Error:
+ Accuracy: 95.2%, Balanced Accuracy: 95.6%, Avg loss: 0.119531
+
+Epoch 275
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 95.2%, Avg loss: 0.102121
+
+Epoch 276
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 94.5%, Avg loss: 0.094877
+
+Epoch 277
+-------------------------------
+Test Error:
+ Accuracy: 86.3%, Balanced Accuracy: 89.8%, Avg loss: 0.407366
+
+Epoch 278
+-------------------------------
+Test Error:
+ Accuracy: 95.0%, Balanced Accuracy: 95.3%, Avg loss: 0.128404
+
+Epoch 279
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 91.4%, Avg loss: 0.095958
+
+Epoch 280
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 95.3%, Avg loss: 0.090759
+
+Epoch 281
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 94.9%, Avg loss: 0.091780
+
+Epoch 282
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 90.5%, Avg loss: 0.106594
+
+Epoch 283
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 93.4%, Avg loss: 0.100085
+
+Epoch 284
+-------------------------------
+Test Error:
+ Accuracy: 94.0%, Balanced Accuracy: 86.0%, Avg loss: 0.204032
+
+Epoch 285
+-------------------------------
+Test Error:
+ Accuracy: 96.0%, Balanced Accuracy: 94.0%, Avg loss: 0.097820
+
+Epoch 286
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 95.9%, Avg loss: 0.086332
+
+Epoch 287
+-------------------------------
+Test Error:
+ Accuracy: 94.9%, Balanced Accuracy: 95.9%, Avg loss: 0.118394
+
+Epoch 288
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 90.9%, Avg loss: 0.107375
+
+Epoch 289
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 94.7%, Avg loss: 0.099238
+
+Epoch 290
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 95.9%, Avg loss: 0.090517
+
+Epoch 291
+-------------------------------
+Test Error:
+ Accuracy: 94.9%, Balanced Accuracy: 86.7%, Avg loss: 0.129644
+
+Epoch 292
+-------------------------------
+Test Error:
+ Accuracy: 93.0%, Balanced Accuracy: 93.8%, Avg loss: 0.157924
+
+Epoch 293
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 92.1%, Avg loss: 0.111279
+
+Epoch 294
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 93.4%, Avg loss: 0.093575
+
+Epoch 295
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 95.4%, Avg loss: 0.100757
+
+Epoch 296
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 95.4%, Avg loss: 0.088695
+
+Epoch 297
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 95.7%, Avg loss: 0.098958
+
+Epoch 298
+-------------------------------
+Test Error:
+ Accuracy: 94.8%, Balanced Accuracy: 95.9%, Avg loss: 0.119936
+
+Epoch 299
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 96.6%, Avg loss: 0.082892
+
+Epoch 300
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 90.6%, Avg loss: 0.127454
+
+Epoch 301
+-------------------------------
+Test Error:
+ Accuracy: 92.4%, Balanced Accuracy: 80.9%, Avg loss: 0.207511
+
+Epoch 302
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 91.0%, Avg loss: 0.097185
+
+Epoch 303
+-------------------------------
+Test Error:
+ Accuracy: 94.8%, Balanced Accuracy: 94.6%, Avg loss: 0.118320
+
+Epoch 304
+-------------------------------
+Test Error:
+ Accuracy: 94.3%, Balanced Accuracy: 89.1%, Avg loss: 0.191206
+
+Epoch 305
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 92.3%, Avg loss: 0.101009
+
+Epoch 306
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 95.6%, Avg loss: 0.083198
+
+Epoch 307
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 96.1%, Avg loss: 0.106627
+
+Epoch 308
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 94.5%, Avg loss: 0.081297
+
+Epoch 309
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 95.7%, Avg loss: 0.084789
+
+Epoch 310
+-------------------------------
+/Users/elenagonzalez/miniconda3/envs/ML/lib/python3.9/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+Test Error:
+ Accuracy: 95.2%, Balanced Accuracy: 91.3%, Avg loss: 0.128322
+
+Epoch 311
+-------------------------------
+Test Error:
+ Accuracy: 96.0%, Balanced Accuracy: 90.3%, Avg loss: 0.106729
+
+Epoch 312
+-------------------------------
+Test Error:
+ Accuracy: 88.4%, Balanced Accuracy: 91.9%, Avg loss: 0.311640
+
+Epoch 313
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 93.6%, Avg loss: 0.089791
+
+Epoch 314
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 92.2%, Avg loss: 0.088150
+
+Epoch 315
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 92.9%, Avg loss: 0.093320
+
+Epoch 316
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 95.9%, Avg loss: 0.089905
+
+Epoch 317
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 94.2%, Avg loss: 0.087216
+
+Epoch 318
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 90.8%, Avg loss: 0.107553
+
+Epoch 319
+-------------------------------
+Test Error:
+ Accuracy: 93.9%, Balanced Accuracy: 93.7%, Avg loss: 0.168683
+
+Epoch 320
+-------------------------------
+Test Error:
+ Accuracy: 95.2%, Balanced Accuracy: 95.5%, Avg loss: 0.111172
+
+Epoch 321
+-------------------------------
+Test Error:
+ Accuracy: 91.7%, Balanced Accuracy: 78.6%, Avg loss: 0.292952
+
+Epoch 322
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 95.3%, Avg loss: 0.084893
+
+Epoch 323
+-------------------------------
+Test Error:
+ Accuracy: 92.2%, Balanced Accuracy: 93.9%, Avg loss: 0.199654
+
+Epoch 324
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 96.2%, Avg loss: 0.101366
+
+Epoch 325
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 95.9%, Avg loss: 0.114978
+
+Epoch 326
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 91.2%, Avg loss: 0.128627
+
+Epoch 327
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 95.1%, Avg loss: 0.100967
+
+Epoch 328
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 90.5%, Avg loss: 0.110848
+
+Epoch 329
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 94.4%, Avg loss: 0.093752
+
+Epoch 330
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 94.4%, Avg loss: 0.104348
+
+Epoch 331
+-------------------------------
+Test Error:
+ Accuracy: 94.9%, Balanced Accuracy: 96.0%, Avg loss: 0.112705
+
+Epoch 332
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 93.5%, Avg loss: 0.105954
+
+Epoch 333
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 95.6%, Avg loss: 0.089206
+
+Epoch 334
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 95.2%, Avg loss: 0.083520
+
+Epoch 335
+-------------------------------
+Test Error:
+ Accuracy: 94.5%, Balanced Accuracy: 83.6%, Avg loss: 0.137198
+
+Epoch 336
+-------------------------------
+Test Error:
+ Accuracy: 95.1%, Balanced Accuracy: 91.0%, Avg loss: 0.132853
+
+Epoch 337
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 94.3%, Avg loss: 0.101300
+
+Epoch 338
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 95.8%, Avg loss: 0.098615
+
+Epoch 339
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 92.6%, Avg loss: 0.097720
+
+Epoch 340
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 96.1%, Avg loss: 0.084826
+
+Epoch 341
+-------------------------------
+/Users/elenagonzalez/miniconda3/envs/ML/lib/python3.9/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 95.2%, Avg loss: 0.080344
+
+Epoch 342
+-------------------------------
+Test Error:
+ Accuracy: 90.5%, Balanced Accuracy: 93.4%, Avg loss: 0.225819
+
+Epoch 343
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 95.8%, Avg loss: 0.117709
+
+Epoch 344
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 95.6%, Avg loss: 0.105366
+
+Epoch 345
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 96.4%, Avg loss: 0.093465
+
+Epoch 346
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 96.6%, Avg loss: 0.092830
+
+Epoch 347
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 94.9%, Avg loss: 0.093426
+
+Epoch 348
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 95.5%, Avg loss: 0.088403
+
+Epoch 349
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 94.5%, Avg loss: 0.100569
+
+Epoch 350
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 94.5%, Avg loss: 0.092281
+
+Epoch 351
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 91.9%, Avg loss: 0.093036
+
+Epoch 352
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 94.9%, Avg loss: 0.108691
+
+Epoch 353
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 93.2%, Avg loss: 0.098464
+
+Epoch 354
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 94.8%, Avg loss: 0.095673
+
+Epoch 355
+-------------------------------
+Test Error:
+ Accuracy: 95.3%, Balanced Accuracy: 89.8%, Avg loss: 0.130997
+
+Epoch 356
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 94.1%, Avg loss: 0.087875
+
+Epoch 357
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 95.2%, Avg loss: 0.087473
+
+Epoch 358
+-------------------------------
+Test Error:
+ Accuracy: 95.2%, Balanced Accuracy: 92.4%, Avg loss: 0.123740
+
+Epoch 359
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 95.4%, Avg loss: 0.080196
+
+Epoch 360
+-------------------------------
+Test Error:
+ Accuracy: 96.0%, Balanced Accuracy: 93.7%, Avg loss: 0.107460
+
+Epoch 361
+-------------------------------
+Test Error:
+ Accuracy: 95.3%, Balanced Accuracy: 95.6%, Avg loss: 0.109922
+
+Epoch 362
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 92.7%, Avg loss: 0.095672
+
+Epoch 363
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 92.4%, Avg loss: 0.085309
+
+Epoch 364
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 95.2%, Avg loss: 0.100433
+
+Epoch 365
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 93.7%, Avg loss: 0.091824
+
+Epoch 366
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 95.0%, Avg loss: 0.083723
+
+Epoch 367
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 95.4%, Avg loss: 0.080131
+
+Epoch 368
+-------------------------------
+Test Error:
+ Accuracy: 97.5%, Balanced Accuracy: 96.9%, Avg loss: 0.078682
+
+Epoch 369
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 91.9%, Avg loss: 0.114576
+
+Epoch 370
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 93.4%, Avg loss: 0.087590
+
+Epoch 371
+-------------------------------
+Test Error:
+ Accuracy: 96.0%, Balanced Accuracy: 91.7%, Avg loss: 0.116835
+
+Epoch 372
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 96.0%, Avg loss: 0.089894
+
+Epoch 373
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 94.0%, Avg loss: 0.085150
+
+Epoch 374
+-------------------------------
+Test Error:
+ Accuracy: 95.0%, Balanced Accuracy: 95.8%, Avg loss: 0.120246
+
+Epoch 375
+-------------------------------
+Test Error:
+ Accuracy: 95.4%, Balanced Accuracy: 86.8%, Avg loss: 0.124323
+
+Epoch 376
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 92.6%, Avg loss: 0.136766
+
+Epoch 377
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 95.4%, Avg loss: 0.099223
+
+Epoch 378
+-------------------------------
+Test Error:
+ Accuracy: 93.4%, Balanced Accuracy: 94.4%, Avg loss: 0.169436
+
+Epoch 379
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 94.6%, Avg loss: 0.079508
+
+Epoch 380
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 94.1%, Avg loss: 0.105812
+
+Epoch 381
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 95.3%, Avg loss: 0.086447
+
+Epoch 382
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 96.5%, Avg loss: 0.091861
+
+Epoch 383
+-------------------------------
+Test Error:
+ Accuracy: 95.1%, Balanced Accuracy: 90.5%, Avg loss: 0.128591
+
+Epoch 384
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 95.6%, Avg loss: 0.075096
+
+Epoch 385
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 92.9%, Avg loss: 0.094213
+
+Epoch 386
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 96.1%, Avg loss: 0.103333
+
+Epoch 387
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 92.8%, Avg loss: 0.098060
+
+Epoch 388
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 93.9%, Avg loss: 0.091085
+
+Epoch 389
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 94.6%, Avg loss: 0.093589
+
+Epoch 390
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 90.8%, Avg loss: 0.135437
+
+Epoch 391
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.2%, Avg loss: 0.083557
+
+Epoch 392
+-------------------------------
+Test Error:
+ Accuracy: 92.7%, Balanced Accuracy: 84.1%, Avg loss: 0.210709
+
+Epoch 393
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 96.6%, Avg loss: 0.092448
+
+Epoch 394
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 92.8%, Avg loss: 0.099409
+
+Epoch 395
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 94.1%, Avg loss: 0.094520
+
+Epoch 396
+-------------------------------
+Test Error:
+ Accuracy: 95.4%, Balanced Accuracy: 89.9%, Avg loss: 0.111242
+
+Epoch 397
+-------------------------------
+Test Error:
+ Accuracy: 95.7%, Balanced Accuracy: 94.6%, Avg loss: 0.114565
+
+Epoch 398
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 96.2%, Avg loss: 0.100797
+
+Epoch 399
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 94.3%, Avg loss: 0.090733
+
+Epoch 400
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 93.9%, Avg loss: 0.086847
+
+Epoch 401
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 94.5%, Avg loss: 0.079007
+
+Epoch 402
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 95.4%, Avg loss: 0.103896
+
+Epoch 403
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 94.0%, Avg loss: 0.121750
+
+Epoch 404
+-------------------------------
+Test Error:
+ Accuracy: 95.2%, Balanced Accuracy: 91.0%, Avg loss: 0.133137
+
+Epoch 405
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 92.8%, Avg loss: 0.096730
+
+Epoch 406
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 95.3%, Avg loss: 0.081452
+
+Epoch 407
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 95.2%, Avg loss: 0.109997
+
+Epoch 408
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 90.9%, Avg loss: 0.118769
+
+Epoch 409
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 93.9%, Avg loss: 0.103177
+
+Epoch 410
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 93.9%, Avg loss: 0.083268
+
+Epoch 411
+-------------------------------
+Test Error:
+ Accuracy: 96.0%, Balanced Accuracy: 94.1%, Avg loss: 0.091209
+
+Epoch 412
+-------------------------------
+Test Error:
+ Accuracy: 94.9%, Balanced Accuracy: 95.9%, Avg loss: 0.136480
+
+Epoch 413
+-------------------------------
+Test Error:
+ Accuracy: 95.0%, Balanced Accuracy: 93.5%, Avg loss: 0.143848
+
+Epoch 414
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 95.8%, Avg loss: 0.112950
+
+Epoch 415
+-------------------------------
+Test Error:
+ Accuracy: 94.9%, Balanced Accuracy: 95.7%, Avg loss: 0.131787
+
+Epoch 416
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 95.5%, Avg loss: 0.080421
+
+Epoch 417
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 95.4%, Avg loss: 0.088601
+
+Epoch 418
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 96.7%, Avg loss: 0.102603
+
+Epoch 419
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 91.5%, Avg loss: 0.095832
+
+Epoch 420
+-------------------------------
+/Users/elenagonzalez/miniconda3/envs/ML/lib/python3.9/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 91.7%, Avg loss: 0.102334
+
+Epoch 421
+-------------------------------
+Test Error:
+ Accuracy: 95.2%, Balanced Accuracy: 96.1%, Avg loss: 0.127308
+
+Epoch 422
+-------------------------------
+Test Error:
+ Accuracy: 95.7%, Balanced Accuracy: 90.5%, Avg loss: 0.126193
+
+Epoch 423
+-------------------------------
+Test Error:
+ Accuracy: 93.8%, Balanced Accuracy: 83.5%, Avg loss: 0.174812
+
+Epoch 424
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 94.0%, Avg loss: 0.083830
+
+Epoch 425
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 95.7%, Avg loss: 0.094165
+
+Epoch 426
+-------------------------------
+Test Error:
+ Accuracy: 94.1%, Balanced Accuracy: 87.4%, Avg loss: 0.162117
+
+Epoch 427
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 95.1%, Avg loss: 0.089616
+
+Epoch 428
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 94.2%, Avg loss: 0.086246
+
+Epoch 429
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 96.7%, Avg loss: 0.094535
+
+Epoch 430
+-------------------------------
+Test Error:
+ Accuracy: 95.0%, Balanced Accuracy: 88.6%, Avg loss: 0.133630
+
+Epoch 431
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 93.1%, Avg loss: 0.094563
+
+Epoch 432
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 96.5%, Avg loss: 0.110594
+
+Epoch 433
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 96.7%, Avg loss: 0.085224
+
+Epoch 434
+-------------------------------
+Test Error:
+ Accuracy: 95.7%, Balanced Accuracy: 95.1%, Avg loss: 0.126392
+
+Epoch 435
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 94.9%, Avg loss: 0.078672
+
+Epoch 436
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 94.8%, Avg loss: 0.096736
+
+Epoch 437
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 95.7%, Avg loss: 0.119463
+
+Epoch 438
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 94.5%, Avg loss: 0.078186
+
+Epoch 439
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 93.4%, Avg loss: 0.088590
+
+Epoch 440
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 90.5%, Avg loss: 0.108878
+
+Epoch 441
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 96.2%, Avg loss: 0.118872
+
+Epoch 442
+-------------------------------
+Test Error:
+ Accuracy: 95.7%, Balanced Accuracy: 92.8%, Avg loss: 0.109307
+
+Epoch 443
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 95.9%, Avg loss: 0.083458
+
+Epoch 444
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 92.1%, Avg loss: 0.093589
+
+Epoch 445
+-------------------------------
+Test Error:
+ Accuracy: 95.7%, Balanced Accuracy: 94.9%, Avg loss: 0.120571
+
+Epoch 446
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 96.8%, Avg loss: 0.080583
+
+Epoch 447
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 93.3%, Avg loss: 0.110810
+
+Epoch 448
+-------------------------------
+Test Error:
+ Accuracy: 94.3%, Balanced Accuracy: 90.3%, Avg loss: 0.143214
+
+Epoch 449
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 96.4%, Avg loss: 0.095661
+
+Epoch 450
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 95.6%, Avg loss: 0.082639
+
+Epoch 451
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 96.7%, Avg loss: 0.102678
+
+Epoch 452
+-------------------------------
+Test Error:
+ Accuracy: 95.7%, Balanced Accuracy: 90.4%, Avg loss: 0.126233
+
+Epoch 453
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 96.3%, Avg loss: 0.080573
+
+Epoch 454
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 97.0%, Avg loss: 0.085324
+
+Epoch 455
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 94.8%, Avg loss: 0.085426
+
+Epoch 456
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 93.8%, Avg loss: 0.098975
+
+Epoch 457
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 93.3%, Avg loss: 0.090519
+
+Epoch 458
+-------------------------------
+Test Error:
+ Accuracy: 94.7%, Balanced Accuracy: 88.9%, Avg loss: 0.164854
+
+Epoch 459
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 94.4%, Avg loss: 0.092279
+
+Epoch 460
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 94.9%, Avg loss: 0.092730
+
+Epoch 461
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 93.3%, Avg loss: 0.095095
+
+Epoch 462
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 94.8%, Avg loss: 0.108471
+
+Epoch 463
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 92.2%, Avg loss: 0.104274
+
+Epoch 464
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 95.3%, Avg loss: 0.083080
+
+Epoch 465
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 93.8%, Avg loss: 0.088470
+
+Epoch 466
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 97.5%, Avg loss: 0.082376
+
+Epoch 467
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 95.9%, Avg loss: 0.091224
+
+Epoch 468
+-------------------------------
+Test Error:
+ Accuracy: 92.7%, Balanced Accuracy: 94.6%, Avg loss: 0.193448
+
+Epoch 469
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 94.3%, Avg loss: 0.081405
+
+Epoch 470
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 93.5%, Avg loss: 0.080343
+
+Epoch 471
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 93.1%, Avg loss: 0.093458
+
+Epoch 472
+-------------------------------
+Test Error:
+ Accuracy: 95.4%, Balanced Accuracy: 90.5%, Avg loss: 0.125263
+
+Epoch 473
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 95.9%, Avg loss: 0.108928
+
+Epoch 474
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 96.3%, Avg loss: 0.091146
+
+Epoch 475
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 95.7%, Avg loss: 0.084947
+
+Epoch 476
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.9%, Avg loss: 0.082427
+
+Epoch 477
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 93.4%, Avg loss: 0.089367
+
+Epoch 478
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 94.2%, Avg loss: 0.113865
+
+Epoch 479
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 94.0%, Avg loss: 0.110663
+
+Epoch 480
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 96.1%, Avg loss: 0.140704
+
+Epoch 481
+-------------------------------
+Test Error:
+ Accuracy: 97.5%, Balanced Accuracy: 95.7%, Avg loss: 0.080403
+
+Epoch 482
+-------------------------------
+Test Error:
+ Accuracy: 96.0%, Balanced Accuracy: 91.3%, Avg loss: 0.108524
+
+Epoch 483
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 95.0%, Avg loss: 0.075227
+
+Epoch 484
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 96.0%, Avg loss: 0.076203
+
+Epoch 485
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 95.6%, Avg loss: 0.089520
+
+Epoch 486
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 94.2%, Avg loss: 0.087030
+
+Epoch 487
+-------------------------------
+Test Error:
+ Accuracy: 96.0%, Balanced Accuracy: 96.8%, Avg loss: 0.105815
+
+Epoch 488
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 95.0%, Avg loss: 0.082253
+
+Epoch 489
+-------------------------------
+Test Error:
+ Accuracy: 94.6%, Balanced Accuracy: 95.9%, Avg loss: 0.138811
+
+Epoch 490
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 96.4%, Avg loss: 0.072946
+
+Epoch 491
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 90.5%, Avg loss: 0.108745
+
+Epoch 492
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 96.5%, Avg loss: 0.112454
+
+Epoch 493
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 94.8%, Avg loss: 0.083433
+
+Epoch 494
+-------------------------------
+Test Error:
+ Accuracy: 93.7%, Balanced Accuracy: 94.6%, Avg loss: 0.149933
+
+Epoch 495
+-------------------------------
+Test Error:
+ Accuracy: 95.1%, Balanced Accuracy: 95.5%, Avg loss: 0.160069
+
+Epoch 496
+-------------------------------
+Test Error:
+ Accuracy: 94.8%, Balanced Accuracy: 96.0%, Avg loss: 0.133666
+
+Epoch 497
+-------------------------------
+Test Error:
+ Accuracy: 95.3%, Balanced Accuracy: 90.3%, Avg loss: 0.113707
+
+Epoch 498
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 97.3%, Avg loss: 0.075842
+
+Epoch 499
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 94.1%, Avg loss: 0.086870
+
+Epoch 500
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 94.1%, Avg loss: 0.086244
+
+Epoch 501
+-------------------------------
+Test Error:
+ Accuracy: 89.9%, Balanced Accuracy: 92.5%, Avg loss: 0.300407
+
+Epoch 502
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 94.4%, Avg loss: 0.088063
+
+Epoch 503
+-------------------------------
+/Users/elenagonzalez/miniconda3/envs/ML/lib/python3.9/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 95.3%, Avg loss: 0.135455
+
+Epoch 504
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 93.1%, Avg loss: 0.106389
+
+Epoch 505
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 94.9%, Avg loss: 0.083894
+
+Epoch 506
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 92.1%, Avg loss: 0.092046
+
+Epoch 507
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 94.3%, Avg loss: 0.115388
+
+Epoch 508
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 93.7%, Avg loss: 0.079599
+
+Epoch 509
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 91.9%, Avg loss: 0.091870
+
+Epoch 510
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 92.2%, Avg loss: 0.114990
+
+Epoch 511
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 95.2%, Avg loss: 0.078936
+
+Epoch 512
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 93.0%, Avg loss: 0.098382
+
+Epoch 513
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 96.5%, Avg loss: 0.088519
+
+Epoch 514
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 96.1%, Avg loss: 0.128676
+
+Epoch 515
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 94.0%, Avg loss: 0.083875
+
+Epoch 516
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 95.7%, Avg loss: 0.073902
+
+Epoch 517
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 95.0%, Avg loss: 0.088245
+
+Epoch 518
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 95.7%, Avg loss: 0.095379
+
+Epoch 519
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.7%, Avg loss: 0.082408
+
+Epoch 520
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 94.7%, Avg loss: 0.089432
+
+Epoch 521
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 96.9%, Avg loss: 0.100697
+
+Epoch 522
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 96.5%, Avg loss: 0.113760
+
+Epoch 523
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 94.9%, Avg loss: 0.088011
+
+Epoch 524
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 93.8%, Avg loss: 0.089211
+
+Epoch 525
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 93.8%, Avg loss: 0.090995
+
+Epoch 526
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 94.0%, Avg loss: 0.095676
+
+Epoch 527
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 96.3%, Avg loss: 0.081330
+
+Epoch 528
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 94.7%, Avg loss: 0.077889
+
+Epoch 529
+-------------------------------
+Test Error:
+ Accuracy: 97.5%, Balanced Accuracy: 96.4%, Avg loss: 0.074786
+
+Epoch 530
+-------------------------------
+Test Error:
+ Accuracy: 96.0%, Balanced Accuracy: 96.3%, Avg loss: 0.113674
+
+Epoch 531
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 94.9%, Avg loss: 0.087131
+
+Epoch 532
+-------------------------------
+Test Error:
+ Accuracy: 95.3%, Balanced Accuracy: 93.8%, Avg loss: 0.108189
+
+Epoch 533
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 90.4%, Avg loss: 0.133798
+
+Epoch 534
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 96.8%, Avg loss: 0.079443
+
+Epoch 535
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 95.4%, Avg loss: 0.082347
+
+Epoch 536
+-------------------------------
+Test Error:
+ Accuracy: 95.4%, Balanced Accuracy: 96.2%, Avg loss: 0.119360
+
+Epoch 537
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 96.3%, Avg loss: 0.087678
+
+Epoch 538
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 95.4%, Avg loss: 0.080146
+
+Epoch 539
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 95.2%, Avg loss: 0.082880
+
+Epoch 540
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 96.8%, Avg loss: 0.093341
+
+Epoch 541
+-------------------------------
+Test Error:
+ Accuracy: 93.5%, Balanced Accuracy: 84.7%, Avg loss: 0.201602
+
+Epoch 542
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 95.6%, Avg loss: 0.091447
+
+Epoch 543
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 95.1%, Avg loss: 0.086176
+
+Epoch 544
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 94.3%, Avg loss: 0.087363
+
+Epoch 545
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 93.0%, Avg loss: 0.125318
+
+Epoch 546
+-------------------------------
+Test Error:
+ Accuracy: 96.0%, Balanced Accuracy: 92.3%, Avg loss: 0.102037
+
+Epoch 547
+-------------------------------
+Test Error:
+ Accuracy: 96.0%, Balanced Accuracy: 92.8%, Avg loss: 0.096077
+
+Epoch 548
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 96.2%, Avg loss: 0.083210
+
+Epoch 549
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 94.3%, Avg loss: 0.081172
+
+Epoch 550
+-------------------------------
+/Users/elenagonzalez/miniconda3/envs/ML/lib/python3.9/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+Test Error:
+ Accuracy: 95.3%, Balanced Accuracy: 92.6%, Avg loss: 0.117855
+
+Epoch 551
+-------------------------------
+Test Error:
+ Accuracy: 94.4%, Balanced Accuracy: 86.5%, Avg loss: 0.154550
+
+Epoch 552
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 96.8%, Avg loss: 0.094034
+
+Epoch 553
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 94.4%, Avg loss: 0.090869
+
+Epoch 554
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 94.1%, Avg loss: 0.081118
+
+Epoch 555
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 95.1%, Avg loss: 0.073353
+
+Epoch 556
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 96.4%, Avg loss: 0.073064
+
+Epoch 557
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 96.2%, Avg loss: 0.082150
+
+Epoch 558
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 95.5%, Avg loss: 0.079642
+
+Epoch 559
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 94.4%, Avg loss: 0.086550
+
+Epoch 560
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 95.7%, Avg loss: 0.072123
+
+Epoch 561
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 95.2%, Avg loss: 0.078296
+
+Epoch 562
+-------------------------------
+Test Error:
+ Accuracy: 95.3%, Balanced Accuracy: 91.7%, Avg loss: 0.141197
+
+Epoch 563
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 95.8%, Avg loss: 0.093633
+
+Epoch 564
+-------------------------------
+Test Error:
+ Accuracy: 96.0%, Balanced Accuracy: 94.8%, Avg loss: 0.117900
+
+Epoch 565
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 97.0%, Avg loss: 0.079868
+
+Epoch 566
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 96.3%, Avg loss: 0.078974
+
+Epoch 567
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 95.1%, Avg loss: 0.079208
+
+Epoch 568
+-------------------------------
+Test Error:
+ Accuracy: 94.4%, Balanced Accuracy: 90.1%, Avg loss: 0.169852
+
+Epoch 569
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 93.5%, Avg loss: 0.108249
+
+Epoch 570
+-------------------------------
+Test Error:
+ Accuracy: 94.7%, Balanced Accuracy: 95.8%, Avg loss: 0.132394
+
+Epoch 571
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 96.6%, Avg loss: 0.100567
+
+Epoch 572
+-------------------------------
+Test Error:
+ Accuracy: 97.5%, Balanced Accuracy: 96.2%, Avg loss: 0.073060
+
+Epoch 573
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 93.5%, Avg loss: 0.082296
+
+Epoch 574
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 94.1%, Avg loss: 0.083615
+
+Epoch 575
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 96.9%, Avg loss: 0.094497
+
+Epoch 576
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 96.6%, Avg loss: 0.089824
+
+Epoch 577
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 97.0%, Avg loss: 0.084786
+
+Epoch 578
+-------------------------------
+Test Error:
+ Accuracy: 95.4%, Balanced Accuracy: 92.1%, Avg loss: 0.140306
+
+Epoch 579
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 97.2%, Avg loss: 0.081119
+
+Epoch 580
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 96.3%, Avg loss: 0.075831
+
+Epoch 581
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 96.7%, Avg loss: 0.076511
+
+Epoch 582
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 95.8%, Avg loss: 0.120048
+
+Epoch 583
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 97.3%, Avg loss: 0.088672
+
+Epoch 584
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 94.1%, Avg loss: 0.080611
+
+Epoch 585
+-------------------------------
+Test Error:
+ Accuracy: 95.4%, Balanced Accuracy: 90.1%, Avg loss: 0.123971
+
+Epoch 586
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 93.6%, Avg loss: 0.085709
+
+Epoch 587
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 96.8%, Avg loss: 0.086630
+
+Epoch 588
+-------------------------------
+Test Error:
+ Accuracy: 97.5%, Balanced Accuracy: 95.9%, Avg loss: 0.074927
+
+Epoch 589
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 94.7%, Avg loss: 0.088212
+
+Epoch 590
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 95.1%, Avg loss: 0.085810
+
+Epoch 591
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 94.3%, Avg loss: 0.101232
+
+Epoch 592
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 94.4%, Avg loss: 0.080424
+
+Epoch 593
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 95.9%, Avg loss: 0.098910
+
+Epoch 594
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 96.1%, Avg loss: 0.102370
+
+Epoch 595
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 96.7%, Avg loss: 0.119039
+
+Epoch 596
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 96.3%, Avg loss: 0.083548
+
+Epoch 597
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 92.8%, Avg loss: 0.128717
+
+Epoch 598
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 94.5%, Avg loss: 0.083352
+
+Epoch 599
+-------------------------------
+Test Error:
+ Accuracy: 94.6%, Balanced Accuracy: 95.8%, Avg loss: 0.143166
+
+Epoch 600
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 92.2%, Avg loss: 0.098423
+
+Epoch 601
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 95.9%, Avg loss: 0.117979
+
+Epoch 602
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 96.5%, Avg loss: 0.081303
+
+Epoch 603
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 94.7%, Avg loss: 0.100246
+
+Epoch 604
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 96.9%, Avg loss: 0.104551
+
+Epoch 605
+-------------------------------
+Test Error:
+ Accuracy: 94.5%, Balanced Accuracy: 94.6%, Avg loss: 0.137014
+
+Epoch 606
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 94.9%, Avg loss: 0.082292
+
+Epoch 607
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 96.4%, Avg loss: 0.076872
+
+Epoch 608
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 94.1%, Avg loss: 0.076862
+
+Epoch 609
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 96.1%, Avg loss: 0.073660
+
+Epoch 610
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 94.6%, Avg loss: 0.088841
+
+Epoch 611
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 92.1%, Avg loss: 0.114831
+
+Epoch 612
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 96.1%, Avg loss: 0.070498
+
+Epoch 613
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 97.4%, Avg loss: 0.088911
+
+Epoch 614
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 95.5%, Avg loss: 0.076328
+
+Epoch 615
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.6%, Avg loss: 0.083501
+
+Epoch 616
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 96.4%, Avg loss: 0.084941
+
+Epoch 617
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 95.1%, Avg loss: 0.083673
+
+Epoch 618
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 97.2%, Avg loss: 0.088794
+
+Epoch 619
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 93.8%, Avg loss: 0.089336
+
+Epoch 620
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 95.2%, Avg loss: 0.095844
+
+Epoch 621
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 94.2%, Avg loss: 0.079573
+
+Epoch 622
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 94.6%, Avg loss: 0.076487
+
+Epoch 623
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 95.9%, Avg loss: 0.083541
+
+Epoch 624
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 96.1%, Avg loss: 0.079586
+
+Epoch 625
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 92.8%, Avg loss: 0.096479
+
+Epoch 626
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.5%, Avg loss: 0.080176
+
+Epoch 627
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.6%, Avg loss: 0.075874
+
+Epoch 628
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 96.5%, Avg loss: 0.105788
+
+Epoch 629
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 92.8%, Avg loss: 0.084992
+
+Epoch 630
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 96.3%, Avg loss: 0.076427
+
+Epoch 631
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 96.5%, Avg loss: 0.092325
+
+Epoch 632
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 96.1%, Avg loss: 0.098639
+
+Epoch 633
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 93.9%, Avg loss: 0.094127
+
+Epoch 634
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 93.8%, Avg loss: 0.107611
+
+Epoch 635
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 95.0%, Avg loss: 0.086512
+
+Epoch 636
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 97.0%, Avg loss: 0.092854
+
+Epoch 637
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 90.0%, Avg loss: 0.119975
+
+Epoch 638
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 95.8%, Avg loss: 0.096262
+
+Epoch 639
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 92.6%, Avg loss: 0.091499
+
+Epoch 640
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 96.9%, Avg loss: 0.079014
+
+Epoch 641
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 92.5%, Avg loss: 0.102000
+
+Epoch 642
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 94.7%, Avg loss: 0.077135
+
+Epoch 643
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 97.4%, Avg loss: 0.080841
+
+Epoch 644
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 93.7%, Avg loss: 0.097767
+
+Epoch 645
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 95.4%, Avg loss: 0.081675
+
+Epoch 646
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 91.9%, Avg loss: 0.094674
+
+Epoch 647
+-------------------------------
+Test Error:
+ Accuracy: 94.5%, Balanced Accuracy: 95.3%, Avg loss: 0.174130
+
+Epoch 648
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 93.4%, Avg loss: 0.090774
+
+Epoch 649
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 96.0%, Avg loss: 0.086883
+
+Epoch 650
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 93.4%, Avg loss: 0.083491
+
+Epoch 651
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 96.5%, Avg loss: 0.076079
+
+Epoch 652
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 90.8%, Avg loss: 0.112013
+
+Epoch 653
+-------------------------------
+Test Error:
+ Accuracy: 92.0%, Balanced Accuracy: 94.2%, Avg loss: 0.228473
+
+Epoch 654
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 92.3%, Avg loss: 0.094522
+
+Epoch 655
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 93.7%, Avg loss: 0.091918
+
+Epoch 656
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 95.6%, Avg loss: 0.073684
+
+Epoch 657
+-------------------------------
+Test Error:
+ Accuracy: 95.7%, Balanced Accuracy: 90.1%, Avg loss: 0.118736
+
+Epoch 658
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 96.6%, Avg loss: 0.116773
+
+Epoch 659
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 97.0%, Avg loss: 0.082080
+
+Epoch 660
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 96.3%, Avg loss: 0.077169
+
+Epoch 661
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 97.0%, Avg loss: 0.070459
+
+Epoch 662
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 96.1%, Avg loss: 0.074592
+
+Epoch 663
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 94.6%, Avg loss: 0.094083
+
+Epoch 664
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 93.4%, Avg loss: 0.106594
+
+Epoch 665
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 96.5%, Avg loss: 0.079547
+
+Epoch 666
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 94.7%, Avg loss: 0.089101
+
+Epoch 667
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 95.1%, Avg loss: 0.088068
+
+Epoch 668
+-------------------------------
+Test Error:
+ Accuracy: 97.5%, Balanced Accuracy: 97.1%, Avg loss: 0.075303
+
+Epoch 669
+-------------------------------
+Test Error:
+ Accuracy: 94.1%, Balanced Accuracy: 95.7%, Avg loss: 0.170800
+
+Epoch 670
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 95.4%, Avg loss: 0.105343
+
+Epoch 671
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 90.4%, Avg loss: 0.112855
+
+Epoch 672
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 96.0%, Avg loss: 0.078150
+
+Epoch 673
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 95.6%, Avg loss: 0.080034
+
+Epoch 674
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 95.6%, Avg loss: 0.093289
+
+Epoch 675
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 94.5%, Avg loss: 0.084496
+
+Epoch 676
+-------------------------------
+Test Error:
+ Accuracy: 95.0%, Balanced Accuracy: 87.2%, Avg loss: 0.173918
+
+Epoch 677
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.3%, Avg loss: 0.071896
+
+Epoch 678
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 93.6%, Avg loss: 0.084752
+
+Epoch 679
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 97.0%, Avg loss: 0.093619
+
+Epoch 680
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 95.3%, Avg loss: 0.099070
+
+Epoch 681
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 94.3%, Avg loss: 0.097268
+
+Epoch 682
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 92.6%, Avg loss: 0.151923
+
+Epoch 683
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 96.5%, Avg loss: 0.082102
+
+Epoch 684
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 94.3%, Avg loss: 0.080598
+
+Epoch 685
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.8%, Avg loss: 0.079427
+
+Epoch 686
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 91.3%, Avg loss: 0.103169
+
+Epoch 687
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 90.8%, Avg loss: 0.109376
+
+Epoch 688
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 93.0%, Avg loss: 0.089663
+
+Epoch 689
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 96.9%, Avg loss: 0.084759
+
+Epoch 690
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 94.4%, Avg loss: 0.083403
+
+Epoch 691
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 94.2%, Avg loss: 0.089901
+
+Epoch 692
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 97.0%, Avg loss: 0.076260
+
+Epoch 693
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.1%, Avg loss: 0.076212
+
+Epoch 694
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 93.9%, Avg loss: 0.095901
+
+Epoch 695
+-------------------------------
+Test Error:
+ Accuracy: 97.5%, Balanced Accuracy: 96.3%, Avg loss: 0.072217
+
+Epoch 696
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 97.1%, Avg loss: 0.089427
+
+Epoch 697
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 95.6%, Avg loss: 0.079088
+
+Epoch 698
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 96.3%, Avg loss: 0.101007
+
+Epoch 699
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 96.0%, Avg loss: 0.075180
+
+Epoch 700
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 96.0%, Avg loss: 0.076843
+
+Epoch 701
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 94.6%, Avg loss: 0.100326
+
+Epoch 702
+-------------------------------
+Test Error:
+ Accuracy: 95.3%, Balanced Accuracy: 96.7%, Avg loss: 0.121515
+
+Epoch 703
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 93.3%, Avg loss: 0.103899
+
+Epoch 704
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 97.1%, Avg loss: 0.092865
+
+Epoch 705
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 96.6%, Avg loss: 0.080237
+
+Epoch 706
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 96.6%, Avg loss: 0.119737
+
+Epoch 707
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 96.5%, Avg loss: 0.089512
+
+Epoch 708
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 95.3%, Avg loss: 0.077923
+
+Epoch 709
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 96.6%, Avg loss: 0.109642
+
+Epoch 710
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.5%, Avg loss: 0.074624
+
+Epoch 711
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 96.0%, Avg loss: 0.078678
+
+Epoch 712
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 96.5%, Avg loss: 0.076541
+
+Epoch 713
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.5%, Avg loss: 0.099192
+
+Epoch 714
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 96.7%, Avg loss: 0.094254
+
+Epoch 715
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 96.0%, Avg loss: 0.095535
+
+Epoch 716
+-------------------------------
+Test Error:
+ Accuracy: 95.1%, Balanced Accuracy: 91.4%, Avg loss: 0.144277
+
+Epoch 717
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 94.6%, Avg loss: 0.096049
+
+Epoch 718
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 97.0%, Avg loss: 0.104087
+
+Epoch 719
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 93.0%, Avg loss: 0.100022
+
+Epoch 720
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 96.0%, Avg loss: 0.085897
+
+Epoch 721
+-------------------------------
+Test Error:
+ Accuracy: 97.9%, Balanced Accuracy: 97.2%, Avg loss: 0.069860
+
+Epoch 722
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 96.2%, Avg loss: 0.089809
+
+Epoch 723
+-------------------------------
+Test Error:
+ Accuracy: 95.7%, Balanced Accuracy: 94.9%, Avg loss: 0.099344
+
+Epoch 724
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 92.5%, Avg loss: 0.084812
+
+Epoch 725
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 96.5%, Avg loss: 0.083666
+
+Epoch 726
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 94.9%, Avg loss: 0.073794
+
+Epoch 727
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 90.7%, Avg loss: 0.107660
+
+Epoch 728
+-------------------------------
+Test Error:
+ Accuracy: 97.6%, Balanced Accuracy: 96.3%, Avg loss: 0.068191
+
+Epoch 729
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 96.7%, Avg loss: 0.082884
+
+Epoch 730
+-------------------------------
+Test Error:
+ Accuracy: 95.3%, Balanced Accuracy: 95.8%, Avg loss: 0.126690
+
+Epoch 731
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.1%, Avg loss: 0.092376
+
+Epoch 732
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 96.9%, Avg loss: 0.084506
+
+Epoch 733
+-------------------------------
+Test Error:
+ Accuracy: 95.6%, Balanced Accuracy: 96.1%, Avg loss: 0.111035
+
+Epoch 734
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 95.2%, Avg loss: 0.079094
+
+Epoch 735
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 96.6%, Avg loss: 0.091477
+
+Epoch 736
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 96.4%, Avg loss: 0.079238
+
+Epoch 737
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 94.9%, Avg loss: 0.081807
+
+Epoch 738
+-------------------------------
+Test Error:
+ Accuracy: 95.2%, Balanced Accuracy: 96.2%, Avg loss: 0.141348
+
+Epoch 739
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 96.3%, Avg loss: 0.079485
+
+Epoch 740
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 92.9%, Avg loss: 0.086068
+
+Epoch 741
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 93.3%, Avg loss: 0.088104
+
+Epoch 742
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 95.0%, Avg loss: 0.075415
+
+Epoch 743
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 91.9%, Avg loss: 0.095496
+
+Epoch 744
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 91.1%, Avg loss: 0.118776
+
+Epoch 745
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 93.4%, Avg loss: 0.096597
+
+Epoch 746
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 97.2%, Avg loss: 0.093945
+
+Epoch 747
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 95.4%, Avg loss: 0.082627
+
+Epoch 748
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 94.7%, Avg loss: 0.076958
+
+Epoch 749
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 93.9%, Avg loss: 0.080836
+
+Epoch 750
+-------------------------------
+Test Error:
+ Accuracy: 95.1%, Balanced Accuracy: 95.9%, Avg loss: 0.125421
+
+Epoch 751
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 91.6%, Avg loss: 0.095090
+
+Epoch 752
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 95.6%, Avg loss: 0.078671
+
+Epoch 753
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 91.6%, Avg loss: 0.104205
+
+Epoch 754
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 94.8%, Avg loss: 0.072361
+
+Epoch 755
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 95.6%, Avg loss: 0.076548
+
+Epoch 756
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 94.9%, Avg loss: 0.086396
+
+Epoch 757
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 95.1%, Avg loss: 0.088583
+
+Epoch 758
+-------------------------------
+Test Error:
+ Accuracy: 93.8%, Balanced Accuracy: 86.6%, Avg loss: 0.217273
+
+Epoch 759
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.7%, Avg loss: 0.076485
+
+Epoch 760
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 92.5%, Avg loss: 0.100490
+
+Epoch 761
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 91.3%, Avg loss: 0.093735
+
+Epoch 762
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 95.1%, Avg loss: 0.077521
+
+Epoch 763
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 93.8%, Avg loss: 0.086265
+
+Epoch 764
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 96.3%, Avg loss: 0.079405
+
+Epoch 765
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 95.5%, Avg loss: 0.092771
+
+Epoch 766
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 97.0%, Avg loss: 0.075916
+
+Epoch 767
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 96.0%, Avg loss: 0.073737
+
+Epoch 768
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 94.3%, Avg loss: 0.081888
+
+Epoch 769
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 95.2%, Avg loss: 0.095313
+
+Epoch 770
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 96.0%, Avg loss: 0.092520
+
+Epoch 771
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 96.8%, Avg loss: 0.087084
+
+Epoch 772
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 95.5%, Avg loss: 0.090982
+
+Epoch 773
+-------------------------------
+Test Error:
+ Accuracy: 96.0%, Balanced Accuracy: 94.5%, Avg loss: 0.121026
+
+Epoch 774
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 94.8%, Avg loss: 0.081232
+
+Epoch 775
+-------------------------------
+Test Error:
+ Accuracy: 97.5%, Balanced Accuracy: 95.4%, Avg loss: 0.069917
+
+Epoch 776
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 94.6%, Avg loss: 0.083412
+
+Epoch 777
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 95.0%, Avg loss: 0.075687
+
+Epoch 778
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 95.1%, Avg loss: 0.098013
+
+Epoch 779
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 96.4%, Avg loss: 0.084505
+
+Epoch 780
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 91.3%, Avg loss: 0.106821
+
+Epoch 781
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 94.7%, Avg loss: 0.092923
+
+Epoch 782
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 97.0%, Avg loss: 0.080430
+
+Epoch 783
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 94.8%, Avg loss: 0.081775
+
+Epoch 784
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 96.7%, Avg loss: 0.096291
+
+Epoch 785
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 96.2%, Avg loss: 0.075678
+
+Epoch 786
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 94.7%, Avg loss: 0.074088
+
+Epoch 787
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 94.1%, Avg loss: 0.083772
+
+Epoch 788
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 92.4%, Avg loss: 0.092842
+
+Epoch 789
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 96.9%, Avg loss: 0.075594
+
+Epoch 790
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 92.1%, Avg loss: 0.111930
+
+Epoch 791
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 96.1%, Avg loss: 0.085913
+
+Epoch 792
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 96.7%, Avg loss: 0.094502
+
+Epoch 793
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 93.0%, Avg loss: 0.082771
+
+Epoch 794
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 92.6%, Avg loss: 0.105184
+
+Epoch 795
+-------------------------------
+Test Error:
+ Accuracy: 94.3%, Balanced Accuracy: 94.3%, Avg loss: 0.236408
+
+Epoch 796
+-------------------------------
+Test Error:
+ Accuracy: 97.5%, Balanced Accuracy: 96.0%, Avg loss: 0.075329
+
+Epoch 797
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 93.9%, Avg loss: 0.095576
+
+Epoch 798
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 95.2%, Avg loss: 0.079151
+
+Epoch 799
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 95.5%, Avg loss: 0.066478
+
+Epoch 800
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 95.2%, Avg loss: 0.088735
+
+Epoch 801
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 93.7%, Avg loss: 0.088232
+
+Epoch 802
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 95.0%, Avg loss: 0.082933
+
+Epoch 803
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 92.5%, Avg loss: 0.097328
+
+Epoch 804
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 93.9%, Avg loss: 0.080938
+
+Epoch 805
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 96.5%, Avg loss: 0.073382
+
+Epoch 806
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 96.7%, Avg loss: 0.097424
+
+Epoch 807
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 96.0%, Avg loss: 0.086524
+
+Epoch 808
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 95.9%, Avg loss: 0.072937
+
+Epoch 809
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 93.0%, Avg loss: 0.089042
+
+Epoch 810
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 95.9%, Avg loss: 0.084843
+
+Epoch 811
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 94.9%, Avg loss: 0.093750
+
+Epoch 812
+-------------------------------
+Test Error:
+ Accuracy: 95.3%, Balanced Accuracy: 95.8%, Avg loss: 0.113948
+
+Epoch 813
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 96.0%, Avg loss: 0.088377
+
+Epoch 814
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 95.6%, Avg loss: 0.110421
+
+Epoch 815
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 96.0%, Avg loss: 0.093609
+
+Epoch 816
+-------------------------------
+Test Error:
+ Accuracy: 95.8%, Balanced Accuracy: 96.0%, Avg loss: 0.136707
+
+Epoch 817
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 95.2%, Avg loss: 0.079423
+
+Epoch 818
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 93.4%, Avg loss: 0.085749
+
+Epoch 819
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 96.0%, Avg loss: 0.086621
+
+Epoch 820
+-------------------------------
+Test Error:
+ Accuracy: 94.4%, Balanced Accuracy: 90.9%, Avg loss: 0.251682
+
+Epoch 821
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 94.3%, Avg loss: 0.077915
+
+Epoch 822
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 94.7%, Avg loss: 0.088153
+
+Epoch 823
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 94.5%, Avg loss: 0.077420
+
+Epoch 824
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.8%, Avg loss: 0.076052
+
+Epoch 825
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 96.2%, Avg loss: 0.081505
+
+Epoch 826
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 92.6%, Avg loss: 0.103089
+
+Epoch 827
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 93.5%, Avg loss: 0.081783
+
+Epoch 828
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 96.8%, Avg loss: 0.125253
+
+Epoch 829
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 96.6%, Avg loss: 0.075252
+
+Epoch 830
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 95.9%, Avg loss: 0.086463
+
+Epoch 831
+-------------------------------
+Test Error:
+ Accuracy: 95.2%, Balanced Accuracy: 96.2%, Avg loss: 0.138570
+
+Epoch 832
+-------------------------------
+Test Error:
+ Accuracy: 95.7%, Balanced Accuracy: 91.1%, Avg loss: 0.112761
+
+Epoch 833
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 96.0%, Avg loss: 0.111713
+
+Epoch 834
+-------------------------------
+Test Error:
+ Accuracy: 94.0%, Balanced Accuracy: 95.0%, Avg loss: 0.175408
+
+Epoch 835
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 96.3%, Avg loss: 0.078031
+
+Epoch 836
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 96.3%, Avg loss: 0.075221
+
+Epoch 837
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 94.5%, Avg loss: 0.084648
+
+Epoch 838
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.6%, Avg loss: 0.075946
+
+Epoch 839
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 96.4%, Avg loss: 0.082474
+
+Epoch 840
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 95.5%, Avg loss: 0.094694
+
+Epoch 841
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 96.9%, Avg loss: 0.074557
+
+Epoch 842
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 97.3%, Avg loss: 0.095262
+
+Epoch 843
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 93.6%, Avg loss: 0.122253
+
+Epoch 844
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 97.0%, Avg loss: 0.078868
+
+Epoch 845
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 96.5%, Avg loss: 0.083958
+
+Epoch 846
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 95.0%, Avg loss: 0.071691
+
+Epoch 847
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 95.7%, Avg loss: 0.081072
+
+Epoch 848
+-------------------------------
+Test Error:
+ Accuracy: 97.6%, Balanced Accuracy: 95.4%, Avg loss: 0.072244
+
+Epoch 849
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 96.2%, Avg loss: 0.070615
+
+Epoch 850
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 95.4%, Avg loss: 0.108161
+
+Epoch 851
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 94.8%, Avg loss: 0.092584
+
+Epoch 852
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 95.5%, Avg loss: 0.078541
+
+Epoch 853
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 96.3%, Avg loss: 0.071577
+
+Epoch 854
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 95.6%, Avg loss: 0.068990
+
+Epoch 855
+-------------------------------
+Test Error:
+ Accuracy: 97.6%, Balanced Accuracy: 96.7%, Avg loss: 0.071448
+
+Epoch 856
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 94.7%, Avg loss: 0.079546
+
+Epoch 857
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 96.6%, Avg loss: 0.103914
+
+Epoch 858
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 97.0%, Avg loss: 0.081454
+
+Epoch 859
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 94.1%, Avg loss: 0.084005
+
+Epoch 860
+-------------------------------
+Test Error:
+ Accuracy: 95.7%, Balanced Accuracy: 92.3%, Avg loss: 0.127013
+
+Epoch 861
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 97.1%, Avg loss: 0.083448
+
+Epoch 862
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 90.6%, Avg loss: 0.108824
+
+Epoch 863
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 95.7%, Avg loss: 0.070997
+
+Epoch 864
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 96.8%, Avg loss: 0.077598
+
+Epoch 865
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 96.0%, Avg loss: 0.076388
+
+Epoch 866
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 96.7%, Avg loss: 0.080278
+
+Epoch 867
+-------------------------------
+Test Error:
+ Accuracy: 97.7%, Balanced Accuracy: 96.2%, Avg loss: 0.069426
+
+Epoch 868
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 95.0%, Avg loss: 0.082558
+
+Epoch 869
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 95.9%, Avg loss: 0.078083
+
+Epoch 870
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 90.8%, Avg loss: 0.126742
+
+Epoch 871
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 94.3%, Avg loss: 0.090696
+
+Epoch 872
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 93.7%, Avg loss: 0.089045
+
+Epoch 873
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 96.2%, Avg loss: 0.084836
+
+Epoch 874
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 90.6%, Avg loss: 0.118999
+
+Epoch 875
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 95.2%, Avg loss: 0.086730
+
+Epoch 876
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 97.0%, Avg loss: 0.076736
+
+Epoch 877
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 94.3%, Avg loss: 0.101311
+
+Epoch 878
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 96.5%, Avg loss: 0.090241
+
+Epoch 879
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 92.1%, Avg loss: 0.109888
+
+Epoch 880
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 95.8%, Avg loss: 0.081829
+
+Epoch 881
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 95.8%, Avg loss: 0.117691
+
+Epoch 882
+-------------------------------
+Test Error:
+ Accuracy: 97.6%, Balanced Accuracy: 97.5%, Avg loss: 0.074302
+
+Epoch 883
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.9%, Avg loss: 0.085094
+
+Epoch 884
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 96.7%, Avg loss: 0.108154
+
+Epoch 885
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 96.2%, Avg loss: 0.077346
+
+Epoch 886
+-------------------------------
+Test Error:
+ Accuracy: 94.0%, Balanced Accuracy: 95.4%, Avg loss: 0.180498
+
+Epoch 887
+-------------------------------
+Test Error:
+ Accuracy: 97.5%, Balanced Accuracy: 95.1%, Avg loss: 0.067640
+
+Epoch 888
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 95.4%, Avg loss: 0.090455
+
+Epoch 889
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 92.8%, Avg loss: 0.093559
+
+Epoch 890
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 95.8%, Avg loss: 0.073338
+
+Epoch 891
+-------------------------------
+Test Error:
+ Accuracy: 97.6%, Balanced Accuracy: 96.4%, Avg loss: 0.069840
+
+Epoch 892
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 96.5%, Avg loss: 0.073662
+
+Epoch 893
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 96.0%, Avg loss: 0.090593
+
+Epoch 894
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 96.2%, Avg loss: 0.075959
+
+Epoch 895
+-------------------------------
+Test Error:
+ Accuracy: 96.0%, Balanced Accuracy: 96.4%, Avg loss: 0.109292
+
+Epoch 896
+-------------------------------
+Test Error:
+ Accuracy: 95.7%, Balanced Accuracy: 95.9%, Avg loss: 0.128909
+
+Epoch 897
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 93.8%, Avg loss: 0.084708
+
+Epoch 898
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 95.0%, Avg loss: 0.076263
+
+Epoch 899
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 96.3%, Avg loss: 0.119661
+
+Epoch 900
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 95.6%, Avg loss: 0.070642
+
+Epoch 901
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 95.5%, Avg loss: 0.083653
+
+Epoch 902
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 92.9%, Avg loss: 0.096516
+
+Epoch 903
+-------------------------------
+Test Error:
+ Accuracy: 96.5%, Balanced Accuracy: 95.2%, Avg loss: 0.093128
+
+Epoch 904
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 97.2%, Avg loss: 0.077741
+
+Epoch 905
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 95.8%, Avg loss: 0.086718
+
+Epoch 906
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 95.6%, Avg loss: 0.075909
+
+Epoch 907
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 94.1%, Avg loss: 0.089129
+
+Epoch 908
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 95.3%, Avg loss: 0.085480
+
+Epoch 909
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 94.7%, Avg loss: 0.089966
+
+Epoch 910
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 93.6%, Avg loss: 0.108437
+
+Epoch 911
+-------------------------------
+Test Error:
+ Accuracy: 96.1%, Balanced Accuracy: 93.4%, Avg loss: 0.092123
+
+Epoch 912
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 94.9%, Avg loss: 0.085072
+
+Epoch 913
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 96.4%, Avg loss: 0.079040
+
+Epoch 914
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 94.0%, Avg loss: 0.082974
+
+Epoch 915
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 96.3%, Avg loss: 0.093932
+
+Epoch 916
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 95.7%, Avg loss: 0.074795
+
+Epoch 917
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 97.0%, Avg loss: 0.088459
+
+Epoch 918
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 95.3%, Avg loss: 0.101152
+
+Epoch 919
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 92.7%, Avg loss: 0.096813
+
+Epoch 920
+-------------------------------
+Test Error:
+ Accuracy: 95.7%, Balanced Accuracy: 90.6%, Avg loss: 0.119929
+
+Epoch 921
+-------------------------------
+Test Error:
+ Accuracy: 97.7%, Balanced Accuracy: 96.8%, Avg loss: 0.064696
+
+Epoch 922
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 96.1%, Avg loss: 0.090160
+
+Epoch 923
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 95.8%, Avg loss: 0.070042
+
+Epoch 924
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 93.0%, Avg loss: 0.107688
+
+Epoch 925
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 93.7%, Avg loss: 0.084000
+
+Epoch 926
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 94.4%, Avg loss: 0.084675
+
+Epoch 927
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 94.6%, Avg loss: 0.103937
+
+Epoch 928
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 96.0%, Avg loss: 0.082560
+
+Epoch 929
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 94.9%, Avg loss: 0.080752
+
+Epoch 930
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.0%, Avg loss: 0.091648
+
+Epoch 931
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 95.9%, Avg loss: 0.071932
+
+Epoch 932
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 96.9%, Avg loss: 0.081507
+
+Epoch 933
+-------------------------------
+/Users/elenagonzalez/miniconda3/envs/ML/lib/python3.9/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 94.3%, Avg loss: 0.074415
+
+Epoch 934
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 95.9%, Avg loss: 0.077663
+
+Epoch 935
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 95.9%, Avg loss: 0.082377
+
+Epoch 936
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 94.1%, Avg loss: 0.091366
+
+Epoch 937
+-------------------------------
+Test Error:
+ Accuracy: 93.8%, Balanced Accuracy: 95.2%, Avg loss: 0.197733
+
+Epoch 938
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 97.5%, Avg loss: 0.093070
+
+Epoch 939
+-------------------------------
+Test Error:
+ Accuracy: 95.3%, Balanced Accuracy: 93.7%, Avg loss: 0.167865
+
+Epoch 940
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 96.0%, Avg loss: 0.073883
+
+Epoch 941
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 95.1%, Avg loss: 0.072759
+
+Epoch 942
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 94.0%, Avg loss: 0.076247
+
+Epoch 943
+-------------------------------
+Test Error:
+ Accuracy: 97.6%, Balanced Accuracy: 95.2%, Avg loss: 0.071086
+
+Epoch 944
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 96.5%, Avg loss: 0.114544
+
+Epoch 945
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 93.3%, Avg loss: 0.088263
+
+Epoch 946
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 97.0%, Avg loss: 0.080946
+
+Epoch 947
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 95.7%, Avg loss: 0.087474
+
+Epoch 948
+-------------------------------
+/Users/elenagonzalez/miniconda3/envs/ML/lib/python3.9/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 96.2%, Avg loss: 0.075551
+
+Epoch 949
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 97.3%, Avg loss: 0.083314
+
+Epoch 950
+-------------------------------
+Test Error:
+ Accuracy: 94.2%, Balanced Accuracy: 95.6%, Avg loss: 0.174625
+
+Epoch 951
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 94.7%, Avg loss: 0.081507
+
+Epoch 952
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 95.3%, Avg loss: 0.095963
+
+Epoch 953
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 96.8%, Avg loss: 0.085609
+
+Epoch 954
+-------------------------------
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 92.7%, Avg loss: 0.108089
+
+Epoch 955
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 93.9%, Avg loss: 0.085535
+
+Epoch 956
+-------------------------------
+Test Error:
+ Accuracy: 94.2%, Balanced Accuracy: 95.9%, Avg loss: 0.157658
+
+Epoch 957
+-------------------------------
+Test Error:
+ Accuracy: 94.5%, Balanced Accuracy: 87.0%, Avg loss: 0.162466
+
+Epoch 958
+-------------------------------
+Test Error:
+ Accuracy: 97.0%, Balanced Accuracy: 93.1%, Avg loss: 0.085544
+
+Epoch 959
+-------------------------------
+Test Error:
+ Accuracy: 95.0%, Balanced Accuracy: 95.3%, Avg loss: 0.170659
+
+Epoch 960
+-------------------------------
+Test Error:
+ Accuracy: 96.0%, Balanced Accuracy: 95.8%, Avg loss: 0.136465
+
+Epoch 961
+-------------------------------
+Test Error:
+ Accuracy: 97.6%, Balanced Accuracy: 96.6%, Avg loss: 0.079630
+
+Epoch 962
+-------------------------------
+Test Error:
+ Accuracy: 97.5%, Balanced Accuracy: 95.0%, Avg loss: 0.067959
+
+Epoch 963
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.5%, Avg loss: 0.077991
+
+Epoch 964
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 95.2%, Avg loss: 0.089957
+
+Epoch 965
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 95.3%, Avg loss: 0.078637
+
+Epoch 966
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 95.0%, Avg loss: 0.079246
+
+Epoch 967
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 95.6%, Avg loss: 0.067583
+
+Epoch 968
+-------------------------------
+Test Error:
+ Accuracy: 94.0%, Balanced Accuracy: 93.7%, Avg loss: 0.205063
+
+Epoch 969
+-------------------------------
+Test Error:
+ Accuracy: 97.7%, Balanced Accuracy: 95.9%, Avg loss: 0.069047
+
+Epoch 970
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 97.1%, Avg loss: 0.098527
+
+Epoch 971
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 94.2%, Avg loss: 0.110818
+
+Epoch 972
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 94.2%, Avg loss: 0.098582
+
+Epoch 973
+-------------------------------
+Test Error:
+ Accuracy: 97.5%, Balanced Accuracy: 95.6%, Avg loss: 0.066176
+
+Epoch 974
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 93.2%, Avg loss: 0.092556
+
+Epoch 975
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 95.2%, Avg loss: 0.080130
+
+Epoch 976
+-------------------------------
+/Users/elenagonzalez/miniconda3/envs/ML/lib/python3.9/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+Test Error:
+ Accuracy: 96.4%, Balanced Accuracy: 92.3%, Avg loss: 0.097425
+
+Epoch 977
+-------------------------------
+/Users/elenagonzalez/miniconda3/envs/ML/lib/python3.9/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+Test Error:
+ Accuracy: 95.7%, Balanced Accuracy: 94.6%, Avg loss: 0.135359
+
+Epoch 978
+-------------------------------
+Test Error:
+ Accuracy: 95.9%, Balanced Accuracy: 93.0%, Avg loss: 0.140427
+
+Epoch 979
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 94.9%, Avg loss: 0.081485
+
+Epoch 980
+-------------------------------
+Test Error:
+ Accuracy: 97.5%, Balanced Accuracy: 95.9%, Avg loss: 0.074776
+
+Epoch 981
+-------------------------------
+Test Error:
+ Accuracy: 97.4%, Balanced Accuracy: 97.2%, Avg loss: 0.083822
+
+Epoch 982
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 96.2%, Avg loss: 0.079388
+
+Epoch 983
+-------------------------------
+Test Error:
+ Accuracy: 95.3%, Balanced Accuracy: 91.5%, Avg loss: 0.125306
+
+Epoch 984
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 94.9%, Avg loss: 0.078500
+
+Epoch 985
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 93.8%, Avg loss: 0.086211
+
+Epoch 986
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 95.1%, Avg loss: 0.076730
+
+Epoch 987
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 95.3%, Avg loss: 0.082572
+
+Epoch 988
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 95.3%, Avg loss: 0.091871
+
+Epoch 989
+-------------------------------
+Test Error:
+ Accuracy: 96.9%, Balanced Accuracy: 96.0%, Avg loss: 0.089567
+
+Epoch 990
+-------------------------------
+Test Error:
+ Accuracy: 96.7%, Balanced Accuracy: 94.8%, Avg loss: 0.089249
+
+Epoch 991
+-------------------------------
+Test Error:
+ Accuracy: 96.8%, Balanced Accuracy: 95.7%, Avg loss: 0.087759
+
+Epoch 992
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.8%, Avg loss: 0.074762
+
+Epoch 993
+-------------------------------
+Test Error:
+ Accuracy: 96.6%, Balanced Accuracy: 95.1%, Avg loss: 0.086420
+
+Epoch 994
+-------------------------------
+Test Error:
+ Accuracy: 97.2%, Balanced Accuracy: 94.4%, Avg loss: 0.079099
+
+Epoch 995
+-------------------------------
+Test Error:
+ Accuracy: 97.1%, Balanced Accuracy: 95.3%, Avg loss: 0.097020
+
+Epoch 996
+-------------------------------
+Test Error:
+ Accuracy: 96.2%, Balanced Accuracy: 96.7%, Avg loss: 0.100410
+
+Epoch 997
+-------------------------------
+Test Error:
+ Accuracy: 97.3%, Balanced Accuracy: 96.2%, Avg loss: 0.083846
+
+Epoch 998
+-------------------------------
+Test Error:
+ Accuracy: 96.3%, Balanced Accuracy: 92.2%, Avg loss: 0.095563
+
+Epoch 999
+-------------------------------
+Test Error:
+ Accuracy: 97.5%, Balanced Accuracy: 95.7%, Avg loss: 0.081674
+
+Epoch 1000
+-------------------------------
+Test Error:
+ Accuracy: 95.5%, Balanced Accuracy: 91.2%, Avg loss: 0.123134
+
+Done!

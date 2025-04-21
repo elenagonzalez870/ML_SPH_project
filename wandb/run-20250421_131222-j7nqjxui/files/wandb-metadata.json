@@ -1,0 +1,34 @@
+{
+  "os": "macOS-15.3.2-x86_64-i386-64bit",
+  "python": "CPython 3.9.20",
+  "startedAt": "2025-04-21T18:12:22.791977Z",
+  "program": "/Users/elenagonzalez/Desktop/Research/ML/NN.ipynb",
+  "codePath": "Desktop/Research/ML/NN.ipynb",
+  "git": {
+    "commit": "da0f36da29edb8d3957fd66afad3666ac325d3d1"
+  },
+  "email": "elena.prieto@northwestern.edu",
+  "root": "/Users/elenagonzalez/Desktop/Research/ML",
+  "host": "dhcp-10-105-60-10.wireless.northwestern.private",
+  "executable": "/Users/elenagonzalez/miniconda3/envs/ML/bin/python",
+  "codePathLocal": "NN.ipynb",
+  "cpu_count": 10,
+  "cpu_count_logical": 10,
+  "disk": {
+    "/": {
+      "total": "994662584320",
+      "used": "307497951232"
+    },
+    "/System/Volumes/Data": {
+      "total": "994662584320",
+      "used": "307497951232"
+    }
+  },
+  "memory": {
+    "total": "25769803776"
+  },
+  "cpu": {
+    "count": 10,
+    "countLogical": 10
+  }
+}
