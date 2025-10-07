@@ -292,6 +292,7 @@ def knn_gridsearch_plotter(x_data, y_data, neigh, knn_scaler,  X_test, y_test):
 
 def N_knn_gridsearch_plotter(X_train, y_train, X_test, y_test, neigh, knn_scaler,feature_idx=(0, 1), fixed_values={}, labels = []):
     import matplotlib.colors as mcolors
+    
     # Step 1: Filter train and test data based on fixed_values
     
     train_mask = np.all(np.array([np.isclose(X_train[:, k], v, rtol=0.09) for k, v in fixed_values.items()]), axis=0)
@@ -461,3 +462,58 @@ def plot_4d_decision_boundary(model, X_train, y_train, X_test, y_test, feature_i
     plt.legend()
     plt.title(f"NN: Decision Boundary Mass1 = {labels[2]} Msun , Mass2 = {labels[3]}Msun")
     plt.show()
+
+def gen_confusion_matrix(y_test, y_pred, title, ax=None):
+    """
+        Generate a normalized confusion matrix with percentages and raw counts.
+        
+        Parameters
+        ----------
+        y_test : array-like of shape (n_samples,)
+            True labels for the test set.
+        y_pred : array-like of shape (n_samples,)
+            Predicted labels from the classifier.
+        title : str
+            Title for the confusion matrix plot.
+        ax : matplotlib.axes.Axes, optional
+        Axes object to plot on. If None, creates a new figure.
+
+        Returns
+        -------
+        ax : matplotlib.axes.Axes
+            The figure object containing the confusion matrix heatmap.
+        
+        Notes
+        -----
+        The heatmap displays row-normalized values (percentages) with annotations
+        showing both the percentage and raw counts in format: "XX.X% (count/total)"
+    """
+    from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+    import seaborn as sns
+
+    # Compute confusion matrix
+    cm = confusion_matrix(y_test, y_pred)
+    cm_norm = cm.astype("float") / cm.sum(axis=1)[:, np.newaxis]  # row-normalized
+
+    # Build custom labels with both % and raw counts
+    labels = np.empty_like(cm).astype(str)
+    for i in range(cm.shape[0]):
+        for j in range(cm.shape[1]):
+            percent = cm_norm[i, j] * 100
+            labels[i, j] = f"{percent:.1f}%\n({cm[i, j]}/{cm[i].sum()})"
+
+    # Plot with seaborn
+            
+    # Create figure if no axes provided
+    if ax is None:
+        fig, ax = plt.subplots(figsize=(6, 6))
+
+    sns.heatmap(cm_norm, annot=labels, fmt="", cmap="Blues",
+                xticklabels=np.unique(y_test), yticklabels=np.unique(y_test),
+                cbar=False, ax=ax)
+
+    ax.set_xlabel("Predicted")
+    ax.set_ylabel("True")
+    ax.set_title(title)
+
+    return ax
