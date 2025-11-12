@@ -1,0 +1,47 @@
+# Simple flat configuration - matches your original code structure exactly
+# Usage: python Multitask_NN.py --config config.yaml
+
+logging:
+  entity: "elena-gonzalez-northwestern-university"
+  project_name: "ML_SPH_MoE"
+
+model:
+  inputs: 5
+  labels: 3
+  width: [512, 256, 128]
+  layers: 3
+  layer_norm: true
+  activation_function: relu
+  output_activation: softmax
+  softmax_dim: -1
+  model_type: mlp
+  
+data:
+  dataset: data_splits_splot22f_1008.npz
+  train_size: 0.7
+  test_size: 0.15
+  val_size: 0.15
+  batch_size: 64
+  val_batch_size: train
+  test_batch_size: all
+  random_state: 42
+  age_transform: log10(x+0.001)
+  rp_transform: log10(x+1)
+  v_transform: log10
+  m2i_transform: ln(x)
+  m1i_transform: ln(x)
+  label_transform: false
+  reassigning_merger_masses: true
+  regression_labels: "[m1f/mtoti, m2f/mtoti, mejef/mtoti]"
+  standard_normalization_input: true
+  stratify: true
+  
+training:
+  epochs: 500
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  optimizer: 'adamw' #sgd
+  scheduler: 'ReduceLROnPlateau'  #CosineAnnealingLR
+  scheduler_factor: 0.5
+  scheduler_patience: 10
+  min_lr: 1.0e-6
