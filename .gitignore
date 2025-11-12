@@ -1,3 +1,11 @@
 wandb/
 *.log
 
+./models 
+./regression/models
+./classification/models
+./Multitask/models
+./Multitask/logs
+./MoE/models
+./FB_Dataset
+
