@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # Author: Elena González Prieto
-# Last modified: Nov 17, 2025
+# Last modified: Jan 25th , 2026
 
 import torch
 from torch import nn
@@ -65,7 +65,7 @@ class CustomDataset(Dataset):
         label = self.labels[idx]
 
         data = torch.from_numpy(data).type(torch.float)
-        label = torch.tensor(label)
+        label = torch.tensor(label, dtype=torch.long)
 
         if self.transform:
             data = self.transform(data)
@@ -113,7 +113,7 @@ def train(dataloader, model, loss_fn, optimizer, device):
 
         # Compute prediction error
         pred = model(X)
-        loss = loss_fn(pred, y.argmax(dim=1))
+        loss = loss_fn(pred, y)
         train_loss += loss.item() * X.size(0) 
 
         # Backpropagation
@@ -122,8 +122,8 @@ def train(dataloader, model, loss_fn, optimizer, device):
         optimizer.step()
 
          # Store predictions and true labels
-        correct += (pred.argmax(dim=1) == y.argmax(dim=1)).type(torch.float).sum().item()
-        y_true.extend(y.argmax(dim=1).detach().cpu().numpy())
+        correct += (pred.argmax(dim=1) == y).type(torch.float).sum().item()
+        y_true.extend(y.detach().cpu().numpy())
         y_pred.extend(pred.argmax(dim=1).detach().cpu().numpy())
 
     train_loss /= size
@@ -137,6 +137,7 @@ def test(dataloader, model, loss_fn, device):
     size = len(dataloader.dataset)
     model = model.to(device)
     model.eval()
+
     val_loss, correct = 0, 0
     y_true = []
     y_pred = []
@@ -147,12 +148,12 @@ def test(dataloader, model, loss_fn, device):
             y = y.to(device)
 
             pred = model(X)
-            loss = loss_fn(pred, y.argmax(dim=1))
+            loss = loss_fn(pred, y)
             val_loss += loss.item() * X.size(0) 
             
             # Store predictions and true labels
-            correct += (pred.argmax(dim=1) == y.argmax(dim=1)).type(torch.float).sum().item()
-            y_true.extend(y.argmax(dim=1).detach().cpu().numpy())
+            correct += (pred.argmax(dim=1) == y).type(torch.float).sum().item()
+            y_true.extend(y.detach().cpu().numpy())
             y_pred.extend(pred.argmax(dim=1).detach().cpu().numpy())
             
     val_loss /= size
@@ -201,17 +202,15 @@ def main():
     # Define the transform
     transform = None
     num_classes = 4
-    target_transform = Lambda(lambda y: torch.zeros(num_classes, dtype=torch.float).scatter_(0, y, value=1))
 
     # Create datasets
-    train_dataset = CustomDataset(labels=y_train, data=X_train, transform=transform, target_transform=target_transform)
-    val_dataset = CustomDataset(labels=y_val, data=X_val, transform=transform, target_transform=target_transform)
-    test_dataset = CustomDataset(labels=y_test, data=X_test, transform=transform, target_transform=target_transform)
+    train_dataset = CustomDataset(labels=y_train, data=X_train, transform=transform)
+    val_dataset = CustomDataset(labels=y_val, data=X_val, transform=transform)
+    test_dataset = CustomDataset(labels=y_test, data=X_test, transform=transform)
 
     # Use batch_size from config
-    seed = cfg.data["random_state"]  # your integer
     g = torch.Generator()
-    g.manual_seed(seed)
+    g.manual_seed(cfg.data["random_state"])
 
     train_dataloader = DataLoader(train_dataset, batch_size=cfg.data['batch_size'], shuffle=True, generator=g)
     val_dataloader = DataLoader(val_dataset, batch_size=cfg.data['batch_size'], shuffle=False, generator=g)
@@ -235,10 +234,10 @@ def main():
         optimizer = torch.optim.SGD(model.parameters(), lr=cfg.training['learning_rate'], momentum=0.9, weight_decay=cfg.training['weight_decay'])
 
     if cfg.training['scheduler'] == 'ReduceLROnPlateau':
-        scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=cfg.training['scheduler_factor'], patience=cfg.training['scheduler_patience'], min_lr=cfg.training['min_lr'])
+        scheduler = ReduceLROnPlateau(optimizer, mode='max', factor=cfg.training['scheduler_factor'], patience=cfg.training['scheduler_patience'], min_lr=cfg.training['min_lr'])
 
     elif cfg.training['scheduler'] == 'CosineAnnealingLR':
-        scheduler = CosineAnnealingLR(optimizer, T_max=cfg.training['epochs']) 
+        scheduler = CosineAnnealingLR(optimizer, T_max=cfg.training['epochs'], eta_min=cfg.training['min_lr']) 
 
     # Training loop
     best_val_score = 0.0
@@ -265,9 +264,12 @@ def main():
             best_val_score = val_balanced_acc
             best_model_state = deepcopy(model.state_dict())
             best_epoch = t
+            best_val_correct = val_correct
+            best_val_balanced_acc = val_balanced_acc
+
 
         if cfg.training['scheduler'] == 'ReduceLROnPlateau':
-            scheduler.step(val_loss)
+            scheduler.step(val_balanced_acc)
       
         elif cfg.training['scheduler'] == 'CosineAnnealingLR':
             scheduler.step() 
@@ -277,7 +279,6 @@ def main():
     
     # Test evaluation
     test_loss, test_correct, test_balanced_acc, y_pred_test = test(test_dataloader, model, loss_fn, device)
-    _, best_val_correct, best_val_balanced_acc, y_pred_val = test(val_dataloader, model, loss_fn, device)
 
     wandb.log({"test_balanced_acc": 100 * test_balanced_acc, "test_acc": test_correct * 100})
 
@@ -292,6 +293,11 @@ def main():
         "best_val_acc": 100*best_val_correct, 
         "best_val_balanced_acc": 100*best_val_balanced_acc, 
         "best_epoch": best_epoch}
+
+    wandb.log({
+        "best_val_acc": 100*best_val_correct, 
+        "best_val_balanced_acc": 100*best_val_balanced_acc, 
+        "best_epoch": best_epoch})
 
     torch.save(checkpoint, model_name)
 
