@@ -3,12 +3,12 @@
 #SBATCH --mail-user=elena.prieto@northwestern.edu 
 #SBATCH --output=logs/sweep_%A_%a.out
 #SBATCH --error=logs/sweep_%A_%a.err
-#SBATCH --time=12:00:00
+#SBATCH --time=24:00:00
 #SBATCH --partition=ciera-gpu
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --cpus-per-task=4
-#SBATCH --array=0-2  # 3 agents (0, 1, 2)
+#SBATCH --array=0-4  # 5 agents (0, 1, 2)
 #SBATCH --account=b1094
 #SBATCH --partition=ciera-gpu
 
@@ -31,4 +31,7 @@ echo "Array task ID: $SLURM_ARRAY_TASK_ID"
 echo "Job ID: $SLURM_JOB_ID"
 
 # Run the wandb agent
-wandb agent elena-gonzalez-northwestern-university/ML_SPH_NN_Regression/ixycf7a8
+# Type wandb sweep reg_sweep_config.yaml to get the ID 
+# Type wandb sweep reg_sweep_config2.yaml to get the ID 
+
+wandb agent elena-gonzalez-northwestern-university/ML_SPH_NN_Regression/yyufwtru

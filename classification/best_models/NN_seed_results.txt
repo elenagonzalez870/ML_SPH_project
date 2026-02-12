@@ -1,0 +1,8 @@
+The mean test accuracy is 98.5 with one sigma 0.4
+The mean test balanced accuracy is 97.9 with one sigma 0.2
+Best model is ../best_models/NN_best_seed_models/classification_0126_wjwkv4mh.pt
+Test accuracy is 98.6
+Test balanced accuracy is 98.4 
+Created symbolic link: ../best_models/NN_best_model.pt -> ../best_models/NN_best_seed_models/classification_0126_wjwkv4mh.pt
+Copied best model to ../best_models/classification_0126_wjwkv4mh.pt
+Saved predictions to ../results/NN_results.npz

@@ -1,0 +1,82 @@
+program: NN_classification.py
+project: ML_SPH_NN_Classification
+method: grid 
+parameters:
+  data:
+    parameters:
+      random_state:
+        values: [42, 123, 456, 789, 1011, 5, 33180, 60660, 60, 435]
+      age_transform:
+        value: "log10(x+0.001)"
+      batch_size:
+        value: 64
+      dataset:
+        value: "data_splits_splot22f_1215.npz"
+      label_transform:
+        value: false
+      m1i_transform:
+        value: "ln(x)"
+      m2i_transform:
+        value: "ln(x)"
+      rp_transform:
+        value: "log10(x+0.1)"
+      standard_normalization_input:
+        value: true
+      standard_normalization_labels:
+        value: false
+      stratify:
+        value: true
+      test_batch_size:
+        value: "all"
+      test_size:
+        value: 0.15
+      train_size:
+        value: 0.7
+      v_transform:
+        value: "log10(x+10)"
+      val_batch_size:
+        value: "train"
+      val_size:
+        value: 0.15
+  
+  model:
+    parameters:
+      activation_function:
+        value: "relu"
+      inputs:
+        value: 5
+      labels:
+        value: 4
+      layer_norm:
+        value: true
+      layers:
+        value: 3
+      model_type:
+        value: "mlp"
+      width:
+        value: [512, 256, 128]
+  
+  training:
+    parameters:
+      epochs:
+        value: 500
+      learning_rate:
+        value: 0.0001806317892305744
+      loss_function:
+        value: "CrossEntropyLoss"
+      loss_type:
+        value: "Normal"
+      min_lr:
+        value: 0.00000001
+      optimizer:
+        value: "adamw"
+      scheduler:
+        value: "CosineAnnealingLR"
+      scheduler_factor:
+        value: 0.3
+      scheduler_patience:
+        value: 60
+      validation:
+        value: true
+      weight_decay:
+        value: 0.01

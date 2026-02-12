@@ -1,0 +1,9 @@
+Number of finished runs : 200
+model_0125_kv2h5hv2.pt
+The median absolute error in m1 is 0.00404861 
+The median absolute error in m2 is 0.00000026 
+Compare with checkpoint statistics on wandb
+
+Best model saved at epoch 1636
+Created symbolic link: ../best_models/NN_best_sweep_model.pt -> ../models/model_0125_kv2h5hv2.pt
+Copied best model to ../best_models/model_0125_kv2h5hv2.pt

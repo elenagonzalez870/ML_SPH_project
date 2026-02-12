@@ -1,6 +1,7 @@
 program: NN_regression.py
 method: bayes
 project: ML_SPH_NN_Regression
+run_cap: 200
 metric:
   goal: minimize
   name: val_loss
@@ -41,9 +42,9 @@ parameters:
       optimizer:
         values: ["sgd", "adamw"]
       scheduler_factor:
-        values: [0.3, 0.4, 0.5]
+        values: [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
       scheduler_patience:
-        values: [10, 20, 40, 60]
+        values: [10, 20, 40, 60, 80, 100, 120]
       weight_decay:
         value: 0.01
       validation:
@@ -60,7 +61,7 @@ parameters:
   data:
     parameters:
       dataset:
-        value: "data_splits_splot22f_1008_regression.csv"
+        value: "data_splits_splot22f_1215.npz"
       reassigning_merger_masses:
         value: True
       regression_labels:
@@ -70,11 +71,11 @@ parameters:
       round_threshold:
         value: False
       age_transform:
-        value: "log10"
+        value: "log10(x+0.001)"
       v_transform:
-        value: "log10"
+        value: "log10(x+10)"
       rp_transform:
-        value: False
+        value:  "log10(x+0.1)"
       m1i_transform:
         value: "ln(x)"
       m2i_transform:

@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+# Author: Elena González Prieto
+# Last modified: Nov 17, 2025
+
 """
 SVM Grid Search for Multi-class Classification
 Optimized for parallel execution on SLURM cluster
@@ -54,7 +57,6 @@ def run_grid_search(X_train_val, y_train_val, ps, n_jobs=-1):
     'C':[0.1, 1, 10, 100, 1000, 10000], 
     'gamma':[0.001, 0.01, 0.1, 1], 
     'degree':[2,3]}
-
     
     # Create base SVC
     svc = svm.SVC(decision_function_shape='ovr', class_weight='balanced')
@@ -86,8 +88,8 @@ def evaluate_model(model, X_train, y_train, X_val, y_val, X_test, y_test):
     
     # Generate predictions
     y_pred_train = model.predict(X_train)
-    y_pred_val = model.predict(X_val)
-    y_pred_test = model.predict(X_test)
+    y_pred_val   = model.predict(X_val)
+    y_pred_test  = model.predict(X_test)
     
     # Calculate metrics
     train_acc = accuracy_score(y_train, y_pred_train)
@@ -102,7 +104,7 @@ def evaluate_model(model, X_train, y_train, X_val, y_val, X_test, y_test):
     print(f"\nTest Accuracy: {test_acc*100:.3f}%")
     print(f"Test Balanced Accuracy: {test_bal_acc*100:.3f}%")
     
-    return y_pred_train, y_pred_val, y_pred_test
+    return y_pred_train, y_pred_val, y_pred_test, test_acc, test_bal_acc
 
 def save_results(grid_search, scaler, predictions, output_dir, results_dir):
     """Save model, scaler, and results"""
@@ -113,29 +115,9 @@ def save_results(grid_search, scaler, predictions, output_dir, results_dir):
     os.makedirs(results_dir, exist_ok=True)
     
     print(f"\nSaving results to {output_dir} and {results_dir}...")
-    
-    # Save best model
-    model_path = os.path.join(output_dir, 'svm_best_model.pkl')
-    joblib.dump(grid_search.best_estimator_, model_path)
-    print(f"Saved best model to {model_path}")
-    
-    # Save scaler
-    scaler_path = os.path.join(output_dir, 'svm_scaler.pkl')
-    joblib.dump(scaler, scaler_path)
-    print(f"Saved scaler to {scaler_path}")
-    
-    # Save training info
-    results = {
-        'best_params': grid_search.best_params_,
-        'best_score': grid_search.best_score_,
-        'cv_results': grid_search.cv_results_
-    }
-    results_path = os.path.join(output_dir, 'svm_training_info.pkl')
-    joblib.dump(results, results_path)
-    print(f"Saved training info to {results_path}")
-    
+
     # Save predictions
-    y_pred_train, y_pred_val, y_pred_test = predictions
+    y_pred_train, y_pred_val, y_pred_test, test_acc, test_bal_acc = predictions
     predictions_path = os.path.join(results_dir, 'svm_results.npz')
     np.savez(
         predictions_path,
@@ -144,24 +126,35 @@ def save_results(grid_search, scaler, predictions, output_dir, results_dir):
         y_pred_test=y_pred_test
     )
     print(f"Saved predictions to {predictions_path}")
+    
+    save_obj = {
+        'model': grid_search.best_estimator_,
+        'scaler': scaler, 
+        'best_params': grid_search.best_params_,
+        'best_score': grid_search.best_score_,
+        'cv_results': grid_search.cv_results_,
+        "test_accuracy": test_acc, 
+        "test_balanced_accuracy": test_bal_acc}
+
+    model_path = os.path.join(output_dir, "svm_best_model.pkl")
+    joblib.dump(save_obj, model_path)
+    
 
 def main():
 
-    results_dir = '/home/egp8636/b1095/ML_SPH/results/'
-    output_dir = '/home/egp8636/b1095/ML_SPH/best_models/'
-    data_file = '/home/egp8636/b1095/ML_SPH/data_splits_splot22f_1008.npz'
+    results_dir = '/home/egp8636/b1095/ML_SPH/classification/results/'
+    output_dir = '/home/egp8636/b1095/ML_SPH/classification/best_models/'
+    data_file = '/home/egp8636/b1095/ML_SPH/data_splits_splot22f_1215.npz'
 
     """Main execution function"""
 
     # Load data
     X_train, y_train, X_val, y_val, X_test, y_test = load_and_prepare_data(
-        data_file
-    )
+        data_file)
     
     # Normalize data
     X_train_scaled, X_val_scaled, X_test_scaled, scaler = normalize_data(
-        X_train, X_val, X_test
-    )
+        X_train, X_val, X_test)
     
     # Create a split indicator array
     # -1 means "use for training", 0 means "use for validation"
@@ -172,7 +165,7 @@ def main():
 
     # Combine train and validation sets
     X_train_val = np.vstack([X_train_scaled, X_val_scaled])
-    y_train_val = np.hstack([y_train, y_val])
+    y_train_val = np.vstack([y_train, y_val]).ravel()
 
     # Create the predefined split
     ps = PredefinedSplit(test_fold=split_index)

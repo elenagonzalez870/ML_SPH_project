@@ -1,0 +1,104 @@
+program: MOE.py
+method: bayes
+project: ML_SPH_MoE
+run_cap: 200
+metric:
+  goal: minimize
+  name: val_loss
+parameters:
+  model:
+    parameters:
+      inputs:
+        value: 5
+      labels:
+        value: 4
+      width:
+        value: [512, 256, 128]
+      layers:
+        value: 3
+      activation_function:
+        value: "relu"
+      output_activation:
+        value: "softmax"
+      softmax_dim:
+        value: -1
+      model_type:
+        value: "mlp"
+      layer_norm:
+        value: True
+  training:
+      parameters:
+        epochs:
+          values: [500, 1000, 2000]
+        learning_rate:
+          distribution: log_uniform_values
+          max: 0.1
+          min: 0.00001
+        min_lr:
+          value: 0.00000001
+        scheduler:
+          values: ["CosineAnnealingLR", "ReduceLROnPlateau"]
+        optimizer:
+          values: ["sgd", "adamw"]
+        scheduler_factor:
+          values: [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
+        scheduler_patience:
+          values: [5, 10, 20, 40, 60, 80]
+        weight_decay:
+          value: 0.01
+        validation:
+          value: True
+        reg_loss_function:
+          value: "L1Loss"
+        class_loss_function:
+          value: "CrossEntropyLoss"
+        loss_type:
+          value: "weighted_multi_component"
+        auxiliary_weight:
+          distribution: uniform
+          min: 0.05
+          max: 1.0
+  data:
+    parameters:
+      dataset:
+        value: "data_splits_splot22f_1215.npz"
+      reassigning_merger_masses:
+        value: True
+      regression_labels:
+        value: "[m1f/mtoti, m2f/mtoti, mejef/mtoti]"
+      round_small_values:
+        value: False
+      round_threshold:
+        value: False
+      age_transform:
+        value: "log10(x+0.001)"
+      v_transform:
+        value: "log10(x+10)"
+      rp_transform:
+        value:  "log10(x+0.1)"
+      m1i_transform:
+        value: "ln(x)"
+      m2i_transform:
+        value: "ln(x)"
+      label_transform:
+        value: True
+      train_size:
+        value: 0.7
+      val_size:
+        value: 0.15
+      test_size:
+        value: 0.15
+      stratify:
+        value: true
+      random_state:
+        value: 42
+      standard_normalization_input:
+        value: True
+      standard_normalization_labels:
+        value: False
+      batch_size:
+        values: [64, 128, 256, 512]
+      val_batch_size:
+        value: 'train'
+      test_batch_size:
+        value: 'all'        

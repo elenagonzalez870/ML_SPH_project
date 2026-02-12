@@ -2,10 +2,15 @@ wandb/
 *.log
 
 ./models 
-./regression/models
-./classification/models
-./Multitask/models
-./Multitask/logs
-./MoE/models
-./FB_Dataset
-
+/regression/models
+/classification/models
+/Multitask/models
+/Multitask/logs
+/MoE/models
+/FB_Dataset
+/classification/NN/logs
+/regression/NN/logs
+/*/*/*.out
+/*/*/*.err
+/figures/*
+/regression/SVR/gridsearch/*

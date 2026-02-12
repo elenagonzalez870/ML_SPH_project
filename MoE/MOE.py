@@ -31,9 +31,19 @@ import yaml
 import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from utils import *
+import random
+from copy import deepcopy
 
 # Device configuration
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+
+def set_seed(seed):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)  # if using multi-GPU
 
 class CustomDataset(Dataset):
     def __init__(self, labels, reg_labels, data, transform=None, target_transform=None):
@@ -53,7 +63,7 @@ class CustomDataset(Dataset):
         reg_label = self.reg_labels[idx]
 
         data = torch.from_numpy(data).type(torch.float)
-        label = torch.tensor(label)
+        label = torch.tensor(label, dtype=torch.long)
         reg_label = torch.from_numpy(reg_label).type(torch.float)
 
         if self.transform:
@@ -68,9 +78,6 @@ class Expert(nn.Module):
         super().__init__()
         self.linear_relu_stack = nn.Sequential(
             nn.Linear(input_dim, hidden_dim),
-            nn.LayerNorm(hidden_dim),
-            nn.ReLU(),
-            nn.Linear(hidden_dim, hidden_dim),
             nn.LayerNorm(hidden_dim),
             nn.ReLU(),
         )
@@ -145,8 +152,9 @@ class AutomaticWeightedLoss(nn.Module):
     def forward(self, *x):
         loss_sum = 0
         for i, loss in enumerate(x):
-            loss_sum += 0.5 / (self.params[i] ** 2) * loss + torch.log(self.params[i] ** 2)
+            loss_sum += 0.5 / (self.params[i] ** 2) * loss + torch.log(1 + self.params[i] ** 2)
         return loss_sum   
+
 
 def train(dataloader, model, loss_fn, reg_loss_fn, optimizer, train_mean, train_std, cfg, awl, device):
     size = len(dataloader.dataset)
@@ -173,8 +181,10 @@ def train(dataloader, model, loss_fn, reg_loss_fn, optimizer, train_mean, train_
         initial_total_massess.append(initial_total_masses)
 
         # Calculating the loss for each task 
-        loss_class = loss_fn(pred_class, true_class.argmax(dim=1))
-        loss_reg = reg_loss_fn(pred_reg, true_reg)
+        loss_class = loss_fn(pred_class, true_class)
+        loss_reg_main = reg_loss_fn(pred_reg[:,:2], true_reg[:,:2])
+        loss_reg_ejec = reg_loss_fn(pred_reg[:,2], true_reg[:,2])
+        loss_reg = loss_reg_main + cfg.training['auxiliary_weight'] * loss_reg_ejec
 
         # Combining the loss 
         loss = awl(loss_class, loss_reg)
@@ -185,8 +195,8 @@ def train(dataloader, model, loss_fn, reg_loss_fn, optimizer, train_mean, train_
         loss.backward()
         optimizer.step()
 
-        correct += (pred_class.argmax(dim=1) == true_class.argmax(dim=1)).type(torch.float).sum().item()
-        y_true_class.extend(true_class.argmax(dim=1).detach().cpu().numpy())
+        correct += (pred_class.argmax(dim=1) == true_class).type(torch.float).sum().item()
+        y_true_class.extend(true_class.detach().cpu().numpy())
         y_pred_class.extend(pred_class.argmax(dim=1).detach().cpu().numpy())
 
         y_true_reg.append(true_reg.detach().cpu().numpy())  
@@ -199,10 +209,6 @@ def train(dataloader, model, loss_fn, reg_loss_fn, optimizer, train_mean, train_
     # stack into (N, 3) arrays
     y_true_reg = np.vstack(y_true_reg)
     y_pred_reg = np.vstack(y_pred_reg)
-
-    # assume y_true and y_pred are torch tensors
-    errors = np.abs(y_pred_reg - y_true_reg) 
-    median_absolute_error = np.median(errors, axis=0)
 
     # Transform true labels 
     initial_total_masses = np.concatenate(initial_total_massess)
@@ -227,7 +233,7 @@ def train(dataloader, model, loss_fn, reg_loss_fn, optimizer, train_mean, train_
     train_median_abs_errors = [median_abs_error_m1, median_abs_error_m2, median_abs_error_mejec]
     train_median_rel_errors = [median_rel_error_m1, median_rel_error_m2, median_rel_error_m_ejec]
 
-    return train_loss, correct, balanced_acc, train_median_abs_errors, train_median_rel_errors
+    return train_loss, loss_class, loss_reg, correct, balanced_acc, train_median_abs_errors, train_median_rel_errors
 
 def test(dataloader, model, loss_fn, reg_loss_fn, train_mean, train_std, cfg, awl, device):
     size = len(dataloader.dataset)
@@ -255,8 +261,10 @@ def test(dataloader, model, loss_fn, reg_loss_fn, train_mean, train_std, cfg, aw
             initial_total_massess.append(initial_total_masses)
 
             # Calculating the loss for each task 
-            loss_class = loss_fn(pred_class, true_class.argmax(dim=1))
-            loss_reg = reg_loss_fn(pred_reg, true_reg)
+            loss_class = loss_fn(pred_class, true_class)
+            loss_reg_main = reg_loss_fn(pred_reg[:,:2], true_reg[:,:2])
+            loss_reg_ejec = reg_loss_fn(pred_reg[:,2], true_reg[:,2])
+            loss_reg = loss_reg_main + cfg.training['auxiliary_weight'] * loss_reg_ejec
 
             # Combining the loss 
             loss = awl(loss_class, loss_reg)
@@ -264,9 +272,9 @@ def test(dataloader, model, loss_fn, reg_loss_fn, train_mean, train_std, cfg, aw
             class_val_loss += loss_class.item() * X.size(0) 
             reg_val_loss += loss_reg.item() * X.size(0) 
 
-            correct += (pred_class.argmax(dim=1) == true_class.argmax(dim=1)).type(torch.float).sum().item()
+            correct += (pred_class.argmax(dim=1) == true_class).type(torch.float).sum().item()
 
-            y_true_class.extend(true_class.argmax(dim=1).detach().cpu().numpy())
+            y_true_class.extend(true_class.detach().cpu().numpy())
             y_pred_class.extend(pred_class.argmax(dim=1).detach().cpu().numpy())
 
             y_true_reg.append(true_reg.detach().cpu().numpy())  
@@ -315,9 +323,9 @@ def test(dataloader, model, loss_fn, reg_loss_fn, train_mean, train_std, cfg, aw
 def main():
 
     # Simple argument parsing
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(add_help=True)
     parser.add_argument('--config', type=str, default=None, help='Path to config YAML file')
-    args = parser.parse_args()
+    args, unknown = parser.parse_known_args()
 
     # Get today's date as string
     date_str = datetime.datetime.now().strftime("%m%d")
@@ -351,9 +359,7 @@ def main():
     wandb.run.name = wandbname
     
     #--- Load and prepare data ---#
-    data = np.load('../data_splits_splot22f_1008.npz')
-    # y_data = [classification labels, M1,f/Mtot,i, M2,f/Mtot,i, Mejec,f/Mtot,i]
-    # x_data = [Age, Rp, Vinf, Mass1, Mass2]
+    data = np.load('../data_splits_splot22f_1215.npz')
 
     X_train = data['X_train']
     y_train_class = data['y_train'][:, :1].flatten().astype(int)
@@ -378,18 +384,17 @@ def main():
     # Define the transform
     transform = None
     num_classes = 4
-    target_transform = Lambda(lambda y: torch.zeros(num_classes, dtype=torch.float).scatter_(0, y, value=1))
 
     # Create datasets
     train_dataset = CustomDataset(labels=y_train_class, reg_labels=y_train_reg, data=X_train, 
-                                 transform=transform, target_transform=target_transform)
+                                 transform=transform)
     val_dataset = CustomDataset(labels=y_val_class, reg_labels=y_val_reg, data=X_val, 
-                               transform=transform, target_transform=target_transform)
+                               transform=transform)
     test_dataset = CustomDataset(labels=y_test_class, reg_labels=y_test_reg, data=X_test, 
-                                transform=transform, target_transform=target_transform)
+                                transform=transform)
 
     g = torch.Generator()
-    g.manual_seed(42)
+    g.manual_seed(cfg.data["random_state"])
 
     # Use batch_size from config
     train_dataloader = DataLoader(train_dataset, batch_size=cfg.data["batch_size"], shuffle=True, generator=g)
@@ -402,38 +407,48 @@ def main():
     class_weights = torch.tensor(class_weights, dtype=torch.float).to(device)
 
     # Initialize model
+    set_seed(cfg.data["random_state"]) #set the seed
     model = TaskSpecificMoE()
     model = model.float()
 
     # Set loss function and optimizer based on config
     loss_fn = nn.CrossEntropyLoss(weight=class_weights)
-    reg_loss_fn = nn.MSELoss()
+    reg_loss_fn = nn.L1Loss()
+
+    awl = AutomaticWeightedLoss(2).to(device)
 
     if cfg.training["optimizer"] == 'adamw':
-        optimizer = torch.optim.AdamW(model.parameters(), lr=cfg.training["learning_rate"], weight_decay=cfg.training["weight_decay"])
-    elif cfg.training["optimizer"] == 'sgd':
-        optimizer = torch.optim.SGD(model.parameters(), lr=cfg.training["learning_rate"], momentum=0.9, weight_decay=cfg.training["weight_decay"])
+        optimizer = torch.optim.AdamW([
+        {'params': model.parameters(), 'weight_decay': cfg.training["weight_decay"]},
+        {'params': awl.parameters(), 'weight_decay': 0.0}], lr=cfg.training["learning_rate"])
 
+    elif cfg.training["optimizer"] == 'sgd':
+        optimizer = torch.optim.SGD([
+        {'params': model.parameters(), 'weight_decay': cfg.training["weight_decay"]},
+        {'params': awl.parameters(), 'weight_decay': 0.0}],
+        lr=cfg.training["learning_rate"], 
+        momentum=0.9)
     if cfg.training["scheduler"] == 'ReduceLROnPlateau':
         scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=cfg.training["scheduler_factor"], 
                                      patience=cfg.training["scheduler_patience"], min_lr=cfg.training["min_lr"])
     elif cfg.training["scheduler"] == 'CosineAnnealingLR':
-        scheduler = CosineAnnealingLR(optimizer, T_max=cfg.training["epochs"]) 
+        scheduler = CosineAnnealingLR(optimizer, T_max=cfg.training["epochs"], eta_min=cfg.training['min_lr']) 
 
     # Training loop
     best_val_score = np.inf
     best_model_state = None
-
-    awl = AutomaticWeightedLoss(2).to(device)
+    best_epoch = 0
 
     for t in range(cfg.training["epochs"]):   
-        train_loss, correct, balanced_acc, train_median_abs_errors, train_median_rel_errors = train(train_dataloader, model, loss_fn, reg_loss_fn, optimizer, train_mean, train_std, cfg, awl, device)
+        train_loss, train_loss_class, train_loss_reg, correct, balanced_acc, train_median_abs_errors, train_median_rel_errors = train(train_dataloader, model, loss_fn, reg_loss_fn, optimizer, train_mean, train_std, cfg, awl, device)
         val_loss, class_val_loss, reg_val_loss, val_balanced_acc, val_correct, val_median_abs_errors, val_median_rel_errors, _ , _ = test(val_dataloader, model, loss_fn, reg_loss_fn, train_mean, train_std, cfg, awl, device)
 
         # Log metrics to wandb
         wandb.log({
             # losses
             "train_loss": train_loss,
+            "class_train_loss": train_loss_class, 
+            "reg_train_loss":train_loss_reg, 
             "val_loss": val_loss, 
             "class_val_loss": class_val_loss, 
             "reg_val_loss":reg_val_loss, 
@@ -456,12 +471,16 @@ def main():
 
             # parameter
             "lr": optimizer.param_groups[0]['lr'],
-            "epoch": t
+            "epoch": t, 
+            "awl_param_class": awl.params[0].item(),
+            "awl_param_reg": awl.params[1].item(),
         })
 
         if val_loss < best_val_score:
             best_val_score = val_loss
-            best_model_state = model.state_dict()
+            best_model_state = deepcopy(model.state_dict())
+            best_awl_state = deepcopy(awl.state_dict())
+            best_epoch = t
 
         if cfg.training["scheduler"] == 'ReduceLROnPlateau':
             scheduler.step(val_loss)
@@ -473,18 +492,19 @@ def main():
     model.load_state_dict(best_model_state)
     
     # Save best model
-    model_name = f"../models/multitask_model_{date_str}_{run_id}.pt"
+    model_name = f"./models/MoE_model_{date_str}_{run_id}.pt"
     checkpoint = {
         "model_state_dict": best_model_state,
         "train_mean": train_mean,
         "train_std": train_std,
-    }
+        "awl_state_dict": best_awl_state,
+        "best_epoch": best_epoch}
+    
     torch.save(checkpoint, model_name)
 
     # Test evaluation
     _, _, _, test_balanced_acc, test_correct, test_median_abs_errors, test_median_rel_errors, y_pred_test_class, y_pred_test_reg = test(test_dataloader, model, loss_fn, reg_loss_fn, train_mean, train_std, cfg, awl, device)
-    _, _, _, _, _, _, _, y_pred_val_class, y_pred_val_reg = test(val_dataloader, model, loss_fn, reg_loss_fn, train_mean, train_std, cfg, awl, device)
-    _, _, _, _, _, _, _, y_pred_train_class, y_pred_train_reg = test(train_dataloader, model, loss_fn, reg_loss_fn, train_mean, train_std, cfg, awl, device)
+    _, _, _, best_val_balanced_acc, best_val_correct, best_val_median_abs_errors, best_val_median_rel_errors, _, _ = test(val_dataloader, model, loss_fn, reg_loss_fn, train_mean, train_std, cfg, awl, device)
 
     wandb.log({"test_balanced_acc": 100 * test_balanced_acc, "test_acc": test_correct * 100})
 
@@ -493,27 +513,24 @@ def main():
             # classification accuracies 
             "test_acc": 100*test_correct, 
             "test_balanced_acc": 100*test_balanced_acc,
+            "best_val_acc": 100*best_val_correct, 
+            "best_val_balanced_acc": 100*best_val_balanced_acc,
 
             # regression errors 
             "test_abs_error_m1": test_median_abs_errors[0], 
             "test_abs_error_m2": test_median_abs_errors[1], 
             "test_rel_error_m1": test_median_rel_errors[0], 
             "test_rel_error_m2": test_median_rel_errors[1], 
+
+            "best_val_abs_error_m1": best_val_median_abs_errors[0],
+            "best_val_abs_error_m2": best_val_median_abs_errors[1],
+            "best_val_rel_error_m1": best_val_median_rel_errors[0],
+            "best_val_rel_error_m2": best_val_median_rel_errors[1]
         })
 
 
-    # np.savez('results/Multitask_results_' + str(run_id) + '.npz',
-    #         y_pred_train_class = y_pred_train_class,
-    #         y_pred_train_reg = y_pred_train_reg, 
-    #         y_pred_test_class = y_pred_test_class, 
-    #         y_pred_test_reg = y_pred_test_reg,
-    #         y_pred_val_class = y_pred_val_class, 
-    #         y_pred_val_reg = y_pred_val_reg,
-    # )
-    # Create confusion matrix
-
     fig, axes = plt.subplots(1, 1, figsize=(6, 6))
-    fig = gen_confusion_matrix(y_test_class, y_pred_test_class, 'NN', ax=axes)
+    gen_confusion_matrix(y_test_class, y_pred_test_class, 'NN', ax=axes)
     wandb.log({"confusion_matrix": wandb.Image(fig)})
     plt.close(fig)
     

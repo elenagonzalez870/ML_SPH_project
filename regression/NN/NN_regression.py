@@ -25,10 +25,18 @@ import wandb
 
 import os
 import datetime
+import random
+from copy import deepcopy
 
 # Device configuration
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
+def set_seed(seed):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)  # if using multi-GPU
 
 class CustomDataset(Dataset):
     def __init__(self, labels, data, transform=None, target_transform=None):
@@ -126,10 +134,6 @@ def train(dataloader, model, loss_fn, optimizer, train_mean, train_std, cfg, dev
     y_true = np.vstack(y_true)
     y_pred = np.vstack(y_pred)
 
-    # assume y_true and y_pred are torch tensors
-    errors = np.abs(y_pred - y_true) 
-    median_absolute_error = np.median(errors, axis = 0)
-
     # Transform true labels 
     initial_total_masses = np.concatenate(initial_total_massess)
     true_mass1 = (y_true[:,0]) * initial_total_masses 
@@ -155,8 +159,6 @@ def train(dataloader, model, loss_fn, optimizer, train_mean, train_std, cfg, dev
 
     return train_loss, train_median_abs_errors, train_median_rel_errors
     
-    
-
 
 def test(dataloader, model, loss_fn, train_mean, train_std, cfg, device):
     size = len(dataloader.dataset)
@@ -197,8 +199,6 @@ def test(dataloader, model, loss_fn, train_mean, train_std, cfg, device):
     y_true = np.vstack(y_true) # stack into (N, 2) arrays
     y_pred = np.vstack(y_pred) 
 
-    median_absolute_error = np.median(np.abs(y_pred - y_true) , axis = 0)
-
     # Transform true labels 
     initial_total_masses = np.concatenate(initial_total_massess)
     true_mass1 = (y_true[:,0]) * initial_total_masses 
@@ -210,7 +210,6 @@ def test(dataloader, model, loss_fn, train_mean, train_std, cfg, device):
     predicted_mass2 = y_pred[:,1] * initial_total_masses
     predicted_mass_ejec = y_pred[:,2] * initial_total_masses
     predicted_masses = np.stack((predicted_mass1, predicted_mass2), axis=1)
-
 
     median_abs_error_m1 = np.median(np.abs(predicted_mass1 - true_mass1)) 
     median_abs_error_m2 = np.median(np.abs(predicted_mass2 - true_mass2)) 
@@ -246,7 +245,7 @@ def main():
     wandb.run.name = wandbname
     
     #--- Load and prepare data ---#
-    data = np.load('../../data_splits_splot22f_1008.npz')
+    data = np.load('../../data_splits_splot22f_1215.npz')
 
     X_train = data['X_train']
     y_train = data['y_train'][:, 1:]
@@ -268,15 +267,15 @@ def main():
     val_dataset = CustomDataset(labels = y_val, data = X_val, transform=None, target_transform = None)
     test_dataset = CustomDataset(labels = y_test, data = X_test, transform=None, target_transform = None)
 
-    #Take this out for final iteration, it is here to make sure data is shuffled the same each time
     g = torch.Generator()
-    g.manual_seed(42)
+    g.manual_seed(cfg.data["random_state"])
 
     train_dataloader = DataLoader(train_dataset, batch_size=cfg.data['batch_size'], shuffle=True, generator=g)
     val_dataloader = DataLoader(val_dataset, batch_size=cfg.data['batch_size'], shuffle=False, generator=g)
     test_dataloader = DataLoader(test_dataset, batch_size=len(test_dataset), shuffle=False, generator=g)
 
     # Initialize model
+    set_seed(cfg.data["random_state"])
     model = NeuralNetwork()
     model = model.float()
 
@@ -298,6 +297,7 @@ def main():
     # Training loop
     best_val_score = np.inf
     best_model_state = None
+    best_epoch = 0
 
     for t in range(cfg.training['epochs']):    
         train_loss, train_median_abs_errors, train_median_rel_errors =  train(train_dataloader, model, loss_fn, optimizer, train_mean, train_std, cfg, device)
@@ -326,7 +326,8 @@ def main():
 
         if val_loss < best_val_score:
             best_val_score = val_loss
-            best_model_state = model.state_dict()
+            best_model_state = deepcopy(model.state_dict())
+            best_epoch = t
 
         if cfg.training['scheduler'] == 'ReduceLROnPlateau':
             scheduler.step(val_loss)
@@ -340,27 +341,30 @@ def main():
         "model_state_dict": best_model_state,
         "train_mean": train_mean,
         "train_std": train_std,
+        "best_epoch": best_epoch
     }
+
     torch.save(checkpoint, model_name)
 
+    # Load best model
+    model.load_state_dict(best_model_state)
+    
     # Test evaluation
     test_loss, test_median_abs_errors, test_median_rel_errors, y_pred_test = test(test_dataloader, model, loss_fn, train_mean, train_std, cfg, device)
-    _, _, _, y_pred_train = test(train_dataloader, model, loss_fn, train_mean, train_std, cfg, device)
-    _, _, _, y_val_train = test(val_dataloader, model, loss_fn, train_mean, train_std, cfg, device)
+    _, best_val_median_abs_errors, best_val_median_rel_errors, _ = test(val_dataloader, model, loss_fn, train_mean, train_std, cfg, device)
 
     wandb.log({
             "test_loss": test_loss, 
             "test_abs_error_m1": test_median_abs_errors[0], 
             "test_abs_error_m2": test_median_abs_errors[1], 
             "test_rel_error_m1": test_median_rel_errors[0], 
-            "test_rel_error_m2": test_median_rel_errors[1] 
-        })
+            "test_rel_error_m2": test_median_rel_errors[1], 
+            "best_val_abs_error_m1": best_val_median_abs_errors[0],
+            "best_val_abs_error_m2": best_val_median_abs_errors[1],
+            "best_val_rel_error_m1": best_val_median_rel_errors[0],
+            "best_val_rel_error_m2": best_val_median_rel_errors[1]
+    })
 
-    # np.savez('results/NN_results_' + str(run_id) + '.npz',
-    #         y_pred_train=y_pred_train,
-    #         y_pred_val=y_val_train,
-    #         y_pred_test=y_pred_test,
-    # )
     
     wandb.finish()
 

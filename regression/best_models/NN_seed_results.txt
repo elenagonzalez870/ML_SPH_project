@@ -1,0 +1,12 @@
+The mean test abs error in m1 is 0.00467473 with one sigma 0.00023074
+The mean test abs error in m2 is 0.00000047 with one sigma 0.00000038
+The mean test rel error in m1 is 0.00108528 with one sigma 0.00005151
+The mean test rel error in m2 is 0.00175749 with one sigma 0.00014633
+The best test absolute error in m1 is 0.00440885 
+The best test absolute error in m2 is 0.00000037 
+The best test rel error in m1 is 0.00105107 
+The best test rel error in m2 is 0.00150726 
+Best model is ../best_models/NN_best_seed_models/model_0126_few8uomm.pt
+Created symbolic link: ../best_models/NN_best_model.pt -> ../best_models/NN_best_seed_models/model_0126_few8uomm.pt
+Copied best model to ../best_models/model_0126_few8uomm.pt
+Saved predictions to ../results/NN_results.npz

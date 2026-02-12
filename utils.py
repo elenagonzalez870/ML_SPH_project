@@ -464,56 +464,41 @@ def plot_4d_decision_boundary(model, X_train, y_train, X_test, y_test, feature_i
     plt.show()
 
 def gen_confusion_matrix(y_test, y_pred, title, ax=None):
-    """
-        Generate a normalized confusion matrix with percentages and raw counts.
-        
-        Parameters
-        ----------
-        y_test : array-like of shape (n_samples,)
-            True labels for the test set.
-        y_pred : array-like of shape (n_samples,)
-            Predicted labels from the classifier.
-        title : str
-            Title for the confusion matrix plot.
-        ax : matplotlib.axes.Axes, optional
-        Axes object to plot on. If None, creates a new figure.
-
-        Returns
-        -------
-        ax : matplotlib.axes.Axes
-            The figure object containing the confusion matrix heatmap.
-        
-        Notes
-        -----
-        The heatmap displays row-normalized values (percentages) with annotations
-        showing both the percentage and raw counts in format: "XX.X% (count/total)"
-    """
-    from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
-    import seaborn as sns
-
+    from sklearn.metrics import confusion_matrix
+    import matplotlib.pyplot as plt
+    import matplotlib
+    import numpy as np
+    
+    matplotlib.rcParams['text.usetex'] = True
+    
     # Compute confusion matrix
     cm = confusion_matrix(y_test, y_pred)
-    cm_norm = cm.astype("float") / cm.sum(axis=1)[:, np.newaxis]  # row-normalized
-
-    # Build custom labels with both % and raw counts
-    labels = np.empty_like(cm).astype(str)
+    cm_norm = cm.astype("float") / cm.sum(axis=1)[:, np.newaxis]
+    
+    if ax is None:
+        fig, ax = plt.subplots(figsize=(6, 6))
+    
+    # Plot the heatmap using imshow
+    im = ax.imshow(cm_norm, cmap="Blues", aspect='auto', vmin=0, vmax=1)
+    
+    # Manually add text annotations with LaTeX
     for i in range(cm.shape[0]):
         for j in range(cm.shape[1]):
             percent = cm_norm[i, j] * 100
-            labels[i, j] = f"{percent:.1f}%\n({cm[i, j]}/{cm[i].sum()})"
-
-    # Plot with seaborn
-            
-    # Create figure if no axes provided
-    if ax is None:
-        fig, ax = plt.subplots(figsize=(6, 6))
-
-    sns.heatmap(cm_norm, annot=labels, fmt="", cmap="Blues",
-                xticklabels=np.unique(y_test), yticklabels=np.unique(y_test),
-                cbar=False, ax=ax)
-
-    ax.set_xlabel("Predicted")
-    ax.set_ylabel("True")
-    ax.set_title(title)
-
+            text = rf"${percent:.1f}\%$" + "\n" + rf"$({cm[i,j]}/{cm[i].sum()})$"
+            color = "white" if cm_norm[i, j] > 0.5 else "black"
+            ax.text(j, i, text, ha="center", va="center", 
+                   fontsize=16, color=color)
+    
+    # Set tick labels with LaTeX
+    unique_labels = np.unique(y_test)
+    ax.set_xticks(np.arange(len(unique_labels)))
+    ax.set_yticks(np.arange(len(unique_labels)))
+    ax.set_xticklabels([rf"${label}$" for label in unique_labels], fontsize=18)
+    ax.set_yticklabels([rf"${label}$" for label in unique_labels], fontsize=18)
+    
+    ax.set_xlabel(r"$\rm Predicted$", fontsize=20)
+    ax.set_ylabel(r"$\rm True$", fontsize=20)
+    ax.set_title(title, fontsize=22)
+    
     return ax

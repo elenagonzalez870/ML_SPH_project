@@ -1,0 +1,118 @@
+Loading data from /home/egp8636/b1095/ML_SPH/data_splits_splot22f_1206.npz...
+Training set: (18081, 5), (18081, 1)
+Validation set: (3874, 5), (3874, 1)
+Testing set: (3875, 5), (3875, 1)
+Normalizing data...
+
+Starting grid search...
+Using n_jobs=-1 for parallel processing
+Fitting model...
+Fitting 1 folds for each of 96 candidates, totalling 96 fits
+[CV] END .............C=1, degree=3, gamma=0.001, kernel=rbf; total time=  13.1s
+[CV] END ...........C=100, degree=3, gamma=0.01, kernel=poly; total time=   9.6s
+[CV] END ...........C=0.1, degree=2, gamma=0.01, kernel=poly; total time=  18.7s
+[CV] END ...........C=10000, degree=2, gamma=0.1, kernel=rbf; total time=   4.2s
+[CV] END ...........C=0.1, degree=2, gamma=0.001, kernel=rbf; total time=  23.3s
+[CV] END ...........C=0.1, degree=3, gamma=0.001, kernel=rbf; total time=  23.3s
+[CV] END ..............C=0.1, degree=2, gamma=1, kernel=poly; total time=  14.4s
+[CV] END ..........C=1000, degree=2, gamma=0.001, kernel=rbf; total time=   3.3s
+[CV] END ...........C=1000, degree=3, gamma=0.01, kernel=rbf; total time=   2.3s
+[CV] END .........C=10000, degree=3, gamma=0.001, kernel=rbf; total time=   3.3s
+[CV] END .................C=1, degree=3, gamma=1, kernel=rbf; total time=   3.5s
+[CV] END ...........C=10, degree=2, gamma=0.001, kernel=poly; total time=  18.6s
+[CV] END .............C=10000, degree=3, gamma=1, kernel=rbf; total time=   1.4s
+[CV] END ...........C=0.1, degree=3, gamma=0.01, kernel=poly; total time=  18.0s
+[CV] END ..........C=1000, degree=3, gamma=0.01, kernel=poly; total time=   5.8s
+[CV] END .............C=1, degree=2, gamma=0.01, kernel=poly; total time=  18.1s
+[CV] END ..............C=1000, degree=3, gamma=1, kernel=rbf; total time=   1.4s
+[CV] END .............C=10000, degree=2, gamma=1, kernel=rbf; total time=   1.4s
+[CV] END ..........C=10000, degree=3, gamma=0.01, kernel=rbf; total time=   2.9s
+[CV] END .............C=0.1, degree=3, gamma=0.1, kernel=rbf; total time=   8.5s
+[CV] END ................C=10, degree=3, gamma=1, kernel=rbf; total time=   2.0s
+[CV] END ...........C=100, degree=2, gamma=0.01, kernel=poly; total time=  13.4s
+[CV] END ................C=1, degree=2, gamma=1, kernel=poly; total time=  18.2s
+[CV] END .........C=10000, degree=2, gamma=0.001, kernel=rbf; total time=   3.1s
+[CV] END .........C=10000, degree=3, gamma=0.01, kernel=poly; total time=   3.2s
+[CV] END ...............C=0.1, degree=3, gamma=1, kernel=rbf; total time=   7.0s
+[CV] END ...........C=10, degree=3, gamma=0.001, kernel=poly; total time=  17.8s
+[CV] END .............C=0.1, degree=2, gamma=0.1, kernel=rbf; total time=   8.6s
+[CV] END ...............C=10, degree=3, gamma=1, kernel=poly; total time=  16.4s
+[CV] END ..........C=0.1, degree=2, gamma=0.001, kernel=poly; total time=  18.5s
+[CV] END ..........C=10000, degree=2, gamma=0.01, kernel=rbf; total time=   3.0s
+[CV] END ...........C=10000, degree=3, gamma=0.1, kernel=rbf; total time=   4.0s
+[CV] END ..............C=0.1, degree=3, gamma=1, kernel=poly; total time=   2.8s
+[CV] END ............C=10, degree=2, gamma=0.001, kernel=rbf; total time=   7.1s
+[CV] END ..........C=100, degree=2, gamma=0.001, kernel=poly; total time=  17.7s
+[CV] END ............C=0.1, degree=2, gamma=0.1, kernel=poly; total time=  15.3s
+[CV] END ..........C=1000, degree=2, gamma=0.01, kernel=poly; total time=  12.9s
+[CV] END ..............C=1, degree=3, gamma=0.1, kernel=poly; total time=   5.8s
+[CV] END ................C=10, degree=2, gamma=1, kernel=rbf; total time=   2.0s
+[CV] END .............C=10, degree=3, gamma=0.1, kernel=poly; total time=   3.5s
+[CV] END ............C=100, degree=2, gamma=0.1, kernel=poly; total time=  18.3s
+[CV] END ...............C=1, degree=2, gamma=0.1, kernel=rbf; total time=   4.5s
+[CV] END ..............C=10, degree=2, gamma=0.1, kernel=rbf; total time=   2.7s
+[CV] END ..............C=10, degree=3, gamma=0.1, kernel=rbf; total time=   2.7s
+[CV] END ............C=100, degree=2, gamma=0.01, kernel=rbf; total time=   2.6s
+[CV] END ..........C=100, degree=3, gamma=0.001, kernel=poly; total time=  17.3s
+[CV] END ............C=0.1, degree=2, gamma=0.01, kernel=rbf; total time=  11.8s
+[CV] END ...............C=100, degree=2, gamma=1, kernel=rbf; total time=   1.5s
+[CV] END .............C=100, degree=3, gamma=0.1, kernel=rbf; total time=   1.9s
+[CV] END .........C=1000, degree=2, gamma=0.001, kernel=poly; total time=  14.5s
+[CV] END ...............C=1, degree=3, gamma=0.1, kernel=rbf; total time=   4.5s
+[CV] END .............C=10, degree=2, gamma=0.1, kernel=poly; total time=  13.9s
+[CV] END ........C=10000, degree=2, gamma=0.001, kernel=poly; total time=  12.4s
+[CV] END .............C=1, degree=3, gamma=0.01, kernel=poly; total time=  17.8s
+[CV] END .........C=1000, degree=3, gamma=0.001, kernel=poly; total time=  16.5s
+[CV] END ..............C=1, degree=2, gamma=0.01, kernel=rbf; total time=   6.4s
+[CV] END ............C=10, degree=3, gamma=0.001, kernel=rbf; total time=   7.4s
+[CV] END ...............C=100, degree=3, gamma=1, kernel=rbf; total time=   1.5s
+[CV] END ...........C=1000, degree=2, gamma=0.01, kernel=rbf; total time=   2.3s
+[CV] END ..........C=1000, degree=3, gamma=0.001, kernel=rbf; total time=   3.3s
+[CV] END ........C=10000, degree=3, gamma=0.001, kernel=poly; total time=  13.5s
+[CV] END .................C=1, degree=2, gamma=1, kernel=rbf; total time=   3.5s
+[CV] END .............C=10, degree=2, gamma=0.01, kernel=rbf; total time=   3.6s
+[CV] END ............C=10, degree=3, gamma=0.01, kernel=poly; total time=  14.5s
+[CV] END ..........C=10000, degree=3, gamma=0.1, kernel=poly; total time=  13.8s
+[CV] END ............C=1, degree=2, gamma=0.001, kernel=poly; total time=  18.6s
+[CV] END .........C=10000, degree=2, gamma=0.01, kernel=poly; total time=  16.9s
+[CV] END ..............C=1, degree=3, gamma=0.01, kernel=rbf; total time=   6.3s
+[CV] END ...............C=10, degree=2, gamma=1, kernel=poly; total time=  50.0s
+[CV] END ..............C=1, degree=2, gamma=0.1, kernel=poly; total time=  13.5s
+[CV] END ............C=100, degree=3, gamma=0.1, kernel=poly; total time=   2.7s
+[CV] END ...........C=1000, degree=2, gamma=0.1, kernel=poly; total time=  49.9s
+[CV] END ............C=0.1, degree=3, gamma=0.1, kernel=poly; total time=   9.6s
+[CV] END ...........C=100, degree=2, gamma=0.001, kernel=rbf; total time=   4.2s
+[CV] END ..............C=100, degree=3, gamma=1, kernel=poly; total time= 1.8min
+[CV] END ............C=0.1, degree=3, gamma=0.01, kernel=rbf; total time=  12.0s
+[CV] END ..............C=100, degree=2, gamma=1, kernel=poly; total time= 4.7min
+[CV] END ................C=1, degree=3, gamma=1, kernel=poly; total time=   4.1s
+[CV] END ............C=10, degree=2, gamma=0.01, kernel=poly; total time=  15.2s
+[CV] END ..........C=10000, degree=2, gamma=0.1, kernel=poly; total time= 4.7min
+[CV] END ...............C=0.1, degree=2, gamma=1, kernel=rbf; total time=   7.1s
+[CV] END .............C=10, degree=3, gamma=0.01, kernel=rbf; total time=   3.5s
+[CV] END .............C=100, degree=2, gamma=0.1, kernel=rbf; total time=   1.9s
+[CV] END ...........C=100, degree=3, gamma=0.001, kernel=rbf; total time=   4.2s
+[CV] END ..............C=1000, degree=2, gamma=1, kernel=rbf; total time=   1.4s
+[CV] END .............C=1000, degree=3, gamma=1, kernel=poly; total time=13.9min
+[CV] END .............C=1, degree=2, gamma=0.001, kernel=rbf; total time=  12.9s
+[CV] END ............C=100, degree=3, gamma=0.01, kernel=rbf; total time=   2.5s
+[CV] END ............C=1000, degree=2, gamma=0.1, kernel=rbf; total time=   2.0s
+[CV] END .............C=1000, degree=2, gamma=1, kernel=poly; total time=35.6min
+[CV] END ..........C=0.1, degree=3, gamma=0.001, kernel=poly; total time=  18.0s
+[CV] END ...........C=1000, degree=3, gamma=0.1, kernel=poly; total time=   4.4s
+[CV] END ............C=10000, degree=3, gamma=1, kernel=poly; total time=69.5min
+
+Grid search completed in 3:52:28.774165
+Best parameters: {'C': 10000, 'degree': 2, 'gamma': 0.1, 'kernel': 'rbf'}
+Best cross-validation score: 0.981
+
+Evaluating model...
+
+Test Accuracy: 98.323%
+Test Balanced Accuracy: 97.706%
+
+Saving results to /home/egp8636/b1095/ML_SPH/classification/best_models/ and /home/egp8636/b1095/ML_SPH/classification/results/...
+Saved predictions to /home/egp8636/b1095/ML_SPH/classification/results/svm_results.npz
+[CV] END ............C=1, degree=3, gamma=0.001, kernel=poly; total time=  18.0s
+[CV] END ............C=1000, degree=3, gamma=0.1, kernel=rbf; total time=   2.0s
+[CV] END ...........C=10000, degree=2, gamma=1, kernel=poly; total time=232.0min

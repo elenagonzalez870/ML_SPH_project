@@ -1,0 +1,5 @@
+Number of finished runs : 200
+Best model is classification_0125_2k8xap0x.pt with validation balanced accuracy of 98.64675661641296
+Compare this to the saved checkpoint best_val_balanced_acc :  98.64675661641296
+Best model saved at epoch 208
+Copied best model to ../best_models/classification_0125_2k8xap0x.pt

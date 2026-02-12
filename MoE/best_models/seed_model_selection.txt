@@ -1,0 +1,18 @@
+Number of finished runs : 10
+Copied models over to ./best_models/MoE_best_seed_models/
+The test mean balanced accuracy is 98.2 with one sigma 0.198
+The test  mean accuracy is 98.5 with one sigma 0.1
+The test  mean MedAE1 is 0.01253197 with one sigma 0.00150967
+The test  mean MedAE2 is 0.00001357 with one sigma 0.00001284
+The test  mean medRAE1 is 0.00308759 with one sigma 0.00032057
+The test  mean medRAE2 is 0.00836832 with one sigma 0.00165284
+Best model is  ./best_models/MoE_best_seed_models/MoE_model_0129_92hk0cay.pt
+The best test balanced accuracy is 98.5 
+The best test accuracy is 98.6
+The best test MAE1 is 0.01035431
+The best test MAE2 is 0.00000419
+The best test RAE1 is 0.00269889
+The best test RAE2 is 0.00754341
+Created symbolic link: ./best_models/MoE_best_model.pt -> ./best_models/MoE_best_seed_models/MoE_model_0129_92hk0cay.pt
+Copied best model to ./best_models/MoE_model_0129_92hk0cay.pt
+Saved predictions to ./results/
